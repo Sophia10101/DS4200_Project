@@ -1,0 +1,2169 @@
+{
+  "features": [
+    "danceability",
+    "energy",
+    "valence",
+    "acousticness",
+    "speechiness",
+    "liveness"
+  ],
+  "genres": [
+    "electronic",
+    "pop",
+    "latin",
+    "hip-hop",
+    "ambient",
+    "rock",
+    "lofi",
+    "world",
+    "arabic",
+    "brazilian",
+    "jazz",
+    "gaming",
+    "classical",
+    "blues",
+    "afrobeats",
+    "wellness",
+    "punk",
+    "turkish",
+    "folk",
+    "indian",
+    "r&b",
+    "metal",
+    "soul",
+    "gospel",
+    "korean",
+    "funk",
+    "cantopop",
+    "reggae",
+    "j-pop",
+    "k-pop",
+    "indie",
+    "mandopop",
+    "soca",
+    "country",
+    "disco"
+  ],
+  "data": [
+    {
+      "playlist_genre": "afrobeats",
+      "popularity_bucket": 10,
+      "danceability": 0.72675,
+      "energy": 0.7222500000000001,
+      "valence": 0.4105,
+      "acousticness": 0.06655,
+      "speechiness": 0.050725,
+      "liveness": 0.09765
+    },
+    {
+      "playlist_genre": "afrobeats",
+      "popularity_bucket": 20,
+      "danceability": 0.764375,
+      "energy": 0.756875,
+      "valence": 0.522,
+      "acousticness": 0.06486625,
+      "speechiness": 0.0710375,
+      "liveness": 0.1333
+    },
+    {
+      "playlist_genre": "afrobeats",
+      "popularity_bucket": 30,
+      "danceability": 0.75975,
+      "energy": 0.796625,
+      "valence": 0.5387500000000001,
+      "acousticness": 0.01901775,
+      "speechiness": 0.0453,
+      "liveness": 0.1240875
+    },
+    {
+      "playlist_genre": "afrobeats",
+      "popularity_bucket": 40,
+      "danceability": 0.7736666666666666,
+      "energy": 0.6114166666666666,
+      "valence": 0.5021666666666667,
+      "acousticness": 0.10860866666666667,
+      "speechiness": 0.161275,
+      "liveness": 0.12845
+    },
+    {
+      "playlist_genre": "afrobeats",
+      "popularity_bucket": 50,
+      "danceability": 0.7442727272727272,
+      "energy": 0.6190909090909091,
+      "valence": 0.5797272727272728,
+      "acousticness": 0.19822272727272727,
+      "speechiness": 0.11386363636363636,
+      "liveness": 0.10440909090909091
+    },
+    {
+      "playlist_genre": "afrobeats",
+      "popularity_bucket": 60,
+      "danceability": 0.7056538461538462,
+      "energy": 0.6791153846153846,
+      "valence": 0.6884615384615385,
+      "acousticness": 0.27385653846153846,
+      "speechiness": 0.13142692307692308,
+      "liveness": 0.20164615384615384
+    },
+    {
+      "playlist_genre": "afrobeats",
+      "popularity_bucket": 70,
+      "danceability": 0.6723846153846154,
+      "energy": 0.7349230769230769,
+      "valence": 0.7276153846153846,
+      "acousticness": 0.30623076923076925,
+      "speechiness": 0.11318461538461538,
+      "liveness": 0.13751538461538462
+    },
+    {
+      "playlist_genre": "ambient",
+      "popularity_bucket": 10,
+      "danceability": 0.3994444444444445,
+      "energy": 0.2846222222222222,
+      "valence": 0.2379444444444444,
+      "acousticness": 0.6882777777777778,
+      "speechiness": 0.1531,
+      "liveness": 0.13507777777777777
+    },
+    {
+      "playlist_genre": "ambient",
+      "popularity_bucket": 20,
+      "danceability": 0.6164848484848485,
+      "energy": 0.5485036363636363,
+      "valence": 0.5216545454545455,
+      "acousticness": 0.3696739393939394,
+      "speechiness": 0.15024242424242426,
+      "liveness": 0.17832727272727272
+    },
+    {
+      "playlist_genre": "ambient",
+      "popularity_bucket": 30,
+      "danceability": 0.6555282051282051,
+      "energy": 0.5440451282051282,
+      "valence": 0.4389051282051282,
+      "acousticness": 0.4175487179487179,
+      "speechiness": 0.1879974358974359,
+      "liveness": 0.17154871794871795
+    },
+    {
+      "playlist_genre": "ambient",
+      "popularity_bucket": 40,
+      "danceability": 0.48744190476190474,
+      "energy": 0.4397509523809524,
+      "valence": 0.4286285714285714,
+      "acousticness": 0.5053838095238096,
+      "speechiness": 0.14734571428571427,
+      "liveness": 0.1570895238095238
+    },
+    {
+      "playlist_genre": "ambient",
+      "popularity_bucket": 50,
+      "danceability": 0.5649820895522388,
+      "energy": 0.49833779104477616,
+      "valence": 0.456944776119403,
+      "acousticness": 0.44492208955223883,
+      "speechiness": 0.13298059701492537,
+      "liveness": 0.1503223880597015
+    },
+    {
+      "playlist_genre": "ambient",
+      "popularity_bucket": 60,
+      "danceability": 0.5754259259259259,
+      "energy": 0.47025257407407406,
+      "valence": 0.4685703703703704,
+      "acousticness": 0.48323333333333335,
+      "speechiness": 0.11985,
+      "liveness": 0.14615925925925927
+    },
+    {
+      "playlist_genre": "ambient",
+      "popularity_bucket": 70,
+      "danceability": 0.5449024390243903,
+      "energy": 0.37484658536585364,
+      "valence": 0.3551,
+      "acousticness": 0.6403682926829268,
+      "speechiness": 0.07616585365853659,
+      "liveness": 0.15044146341463416
+    },
+    {
+      "playlist_genre": "ambient",
+      "popularity_bucket": 80,
+      "danceability": 0.45263636363636367,
+      "energy": 0.4442727272727273,
+      "valence": 0.2520818181818182,
+      "acousticness": 0.5393181818181818,
+      "speechiness": 0.0629909090909091,
+      "liveness": 0.1516909090909091
+    },
+    {
+      "playlist_genre": "arabic",
+      "popularity_bucket": 10,
+      "danceability": 0.5535,
+      "energy": 0.4485,
+      "valence": 0.5895,
+      "acousticness": 0.7645,
+      "speechiness": 0.03345,
+      "liveness": 0.20149999999999998
+    },
+    {
+      "playlist_genre": "arabic",
+      "popularity_bucket": 20,
+      "danceability": 0.47605000000000003,
+      "energy": 0.45994999999999997,
+      "valence": 0.331655,
+      "acousticness": 0.59535,
+      "speechiness": 0.095415,
+      "liveness": 0.1257
+    },
+    {
+      "playlist_genre": "arabic",
+      "popularity_bucket": 30,
+      "danceability": 0.7072777777777778,
+      "energy": 0.6362222222222222,
+      "valence": 0.5954611111111111,
+      "acousticness": 0.3527372222222222,
+      "speechiness": 0.14147222222222222,
+      "liveness": 0.1801111111111111
+    },
+    {
+      "playlist_genre": "arabic",
+      "popularity_bucket": 40,
+      "danceability": 0.7291875,
+      "energy": 0.6893125,
+      "valence": 0.635140625,
+      "acousticness": 0.3404,
+      "speechiness": 0.1697390625,
+      "liveness": 0.170634375
+    },
+    {
+      "playlist_genre": "arabic",
+      "popularity_bucket": 50,
+      "danceability": 0.7277906976744185,
+      "energy": 0.6786511627906976,
+      "valence": 0.5984418604651163,
+      "acousticness": 0.29159348837209303,
+      "speechiness": 0.17125813953488372,
+      "liveness": 0.15536511627906976
+    },
+    {
+      "playlist_genre": "arabic",
+      "popularity_bucket": 60,
+      "danceability": 0.7116818181818182,
+      "energy": 0.6065,
+      "valence": 0.5095909090909091,
+      "acousticness": 0.24668636363636365,
+      "speechiness": 0.16874090909090908,
+      "liveness": 0.11602272727272726
+    },
+    {
+      "playlist_genre": "arabic",
+      "popularity_bucket": 70,
+      "danceability": 0.7683333333333333,
+      "energy": 0.6101333333333333,
+      "valence": 0.41745,
+      "acousticness": 0.19952886666666667,
+      "speechiness": 0.23382666666666668,
+      "liveness": 0.14793
+    },
+    {
+      "playlist_genre": "arabic",
+      "popularity_bucket": 80,
+      "danceability": 0.7202222222222222,
+      "energy": 0.6683333333333334,
+      "valence": 0.3818888888888889,
+      "acousticness": 0.12790333333333334,
+      "speechiness": 0.15601111111111113,
+      "liveness": 0.16673333333333332
+    },
+    {
+      "playlist_genre": "blues",
+      "popularity_bucket": 10,
+      "danceability": 0.601,
+      "energy": 0.33899999999999997,
+      "valence": 0.33125,
+      "acousticness": 0.679525,
+      "speechiness": 0.097875,
+      "liveness": 0.34075
+    },
+    {
+      "playlist_genre": "blues",
+      "popularity_bucket": 20,
+      "danceability": 0.5685714285714286,
+      "energy": 0.2785714285714286,
+      "valence": 0.6077142857142857,
+      "acousticness": 0.8687142857142858,
+      "speechiness": 0.11545714285714286,
+      "liveness": 0.1032
+    },
+    {
+      "playlist_genre": "blues",
+      "popularity_bucket": 30,
+      "danceability": 0.6671666666666667,
+      "energy": 0.34653333333333336,
+      "valence": 0.5385,
+      "acousticness": 0.5823333333333333,
+      "speechiness": 0.11125,
+      "liveness": 0.10446666666666667
+    },
+    {
+      "playlist_genre": "blues",
+      "popularity_bucket": 40,
+      "danceability": 0.4615,
+      "energy": 0.401,
+      "valence": 0.11399999999999999,
+      "acousticness": 0.588,
+      "speechiness": 0.039150000000000004,
+      "liveness": 0.1875
+    },
+    {
+      "playlist_genre": "blues",
+      "popularity_bucket": 50,
+      "danceability": 0.5837777777777777,
+      "energy": 0.5744444444444444,
+      "valence": 0.3582111111111111,
+      "acousticness": 0.25723333333333337,
+      "speechiness": 0.09827777777777777,
+      "liveness": 0.1547
+    },
+    {
+      "playlist_genre": "blues",
+      "popularity_bucket": 60,
+      "danceability": 0.5946296296296296,
+      "energy": 0.5323333333333333,
+      "valence": 0.3771296296296296,
+      "acousticness": 0.3532962962962963,
+      "speechiness": 0.07161851851851851,
+      "liveness": 0.16464074074074075
+    },
+    {
+      "playlist_genre": "blues",
+      "popularity_bucket": 70,
+      "danceability": 0.6141935483870967,
+      "energy": 0.545,
+      "valence": 0.44229032258064516,
+      "acousticness": 0.3604651612903226,
+      "speechiness": 0.055358064516129034,
+      "liveness": 0.13616129032258065
+    },
+    {
+      "playlist_genre": "blues",
+      "popularity_bucket": 80,
+      "danceability": 0.7384999999999999,
+      "energy": 0.892,
+      "valence": 0.5880000000000001,
+      "acousticness": 0.14055,
+      "speechiness": 0.182,
+      "liveness": 0.3155
+    },
+    {
+      "playlist_genre": "brazilian",
+      "popularity_bucket": 10,
+      "danceability": 0.7003809523809524,
+      "energy": 0.7692857142857144,
+      "valence": 0.8394761904761905,
+      "acousticness": 0.46775714285714287,
+      "speechiness": 0.08077142857142856,
+      "liveness": 0.15286666666666665
+    },
+    {
+      "playlist_genre": "brazilian",
+      "popularity_bucket": 20,
+      "danceability": 0.6695625,
+      "energy": 0.700375,
+      "valence": 0.79803125,
+      "acousticness": 0.378603125,
+      "speechiness": 0.066378125,
+      "liveness": 0.154425
+    },
+    {
+      "playlist_genre": "brazilian",
+      "popularity_bucket": 30,
+      "danceability": 0.6795454545454546,
+      "energy": 0.6442424242424243,
+      "valence": 0.7534545454545455,
+      "acousticness": 0.3030939393939394,
+      "speechiness": 0.10604545454545455,
+      "liveness": 0.15990909090909092
+    },
+    {
+      "playlist_genre": "brazilian",
+      "popularity_bucket": 40,
+      "danceability": 0.7493571428571428,
+      "energy": 0.6617857142857143,
+      "valence": 0.7951428571428572,
+      "acousticness": 0.24817814285714285,
+      "speechiness": 0.1716,
+      "liveness": 0.12655714285714287
+    },
+    {
+      "playlist_genre": "brazilian",
+      "popularity_bucket": 50,
+      "danceability": 0.7904,
+      "energy": 0.6354,
+      "valence": 0.64025,
+      "acousticness": 0.321115,
+      "speechiness": 0.15224,
+      "liveness": 0.14648
+    },
+    {
+      "playlist_genre": "brazilian",
+      "popularity_bucket": 60,
+      "danceability": 0.8299375,
+      "energy": 0.7045,
+      "valence": 0.6551875,
+      "acousticness": 0.327375,
+      "speechiness": 0.2256,
+      "liveness": 0.13068125
+    },
+    {
+      "playlist_genre": "brazilian",
+      "popularity_bucket": 70,
+      "danceability": 0.8053333333333333,
+      "energy": 0.7355833333333334,
+      "valence": 0.6151666666666666,
+      "acousticness": 0.34883641666666665,
+      "speechiness": 0.16715,
+      "liveness": 0.20955000000000001
+    },
+    {
+      "playlist_genre": "cantopop",
+      "popularity_bucket": 10,
+      "danceability": 0.5167777777777778,
+      "energy": 0.431,
+      "valence": 0.2742222222222222,
+      "acousticness": 0.6313333333333334,
+      "speechiness": 0.029833333333333337,
+      "liveness": 0.11538888888888889
+    },
+    {
+      "playlist_genre": "cantopop",
+      "popularity_bucket": 20,
+      "danceability": 0.5231818181818182,
+      "energy": 0.5165454545454545,
+      "valence": 0.40354545454545454,
+      "acousticness": 0.5298545454545455,
+      "speechiness": 0.036672727272727274,
+      "liveness": 0.10953636363636364
+    },
+    {
+      "playlist_genre": "cantopop",
+      "popularity_bucket": 30,
+      "danceability": 0.5868571428571429,
+      "energy": 0.47985714285714287,
+      "valence": 0.4121428571428571,
+      "acousticness": 0.5078285714285714,
+      "speechiness": 0.03985714285714286,
+      "liveness": 0.11334285714285715
+    },
+    {
+      "playlist_genre": "classical",
+      "popularity_bucket": 10,
+      "danceability": 0.16799999999999998,
+      "energy": 0.1375,
+      "valence": 0.0393,
+      "acousticness": 0.9604999999999999,
+      "speechiness": 0.049100000000000005,
+      "liveness": 0.08735
+    },
+    {
+      "playlist_genre": "classical",
+      "popularity_bucket": 20,
+      "danceability": 0.22159,
+      "energy": 0.23928,
+      "valence": 0.10933999999999999,
+      "acousticness": 0.7334175,
+      "speechiness": 0.04094,
+      "liveness": 0.1456
+    },
+    {
+      "playlist_genre": "classical",
+      "popularity_bucket": 30,
+      "danceability": 0.21373125,
+      "energy": 0.2760728125,
+      "valence": 0.11359375,
+      "acousticness": 0.667153125,
+      "speechiness": 0.043228125,
+      "liveness": 0.09904375
+    },
+    {
+      "playlist_genre": "classical",
+      "popularity_bucket": 40,
+      "danceability": 0.2551642857142857,
+      "energy": 0.18692857142857142,
+      "valence": 0.17545000000000002,
+      "acousticness": 0.8323178571428571,
+      "speechiness": 0.043239285714285716,
+      "liveness": 0.1037107142857143
+    },
+    {
+      "playlist_genre": "classical",
+      "popularity_bucket": 50,
+      "danceability": 0.30807222222222225,
+      "energy": 0.21831111111111112,
+      "valence": 0.10636111111111111,
+      "acousticness": 0.7715438888888888,
+      "speechiness": 0.04476111111111111,
+      "liveness": 0.15028333333333335
+    },
+    {
+      "playlist_genre": "classical",
+      "popularity_bucket": 60,
+      "danceability": 0.31447391304347827,
+      "energy": 0.08502347826086956,
+      "valence": 0.14785217391304348,
+      "acousticness": 0.9265652173913044,
+      "speechiness": 0.04184782608695652,
+      "liveness": 0.1270173913043478
+    },
+    {
+      "playlist_genre": "classical",
+      "popularity_bucket": 70,
+      "danceability": 0.30375,
+      "energy": 0.12489,
+      "valence": 0.178425,
+      "acousticness": 0.87625,
+      "speechiness": 0.0429875,
+      "liveness": 0.0979375
+    },
+    {
+      "playlist_genre": "country",
+      "popularity_bucket": 20,
+      "danceability": 0.686,
+      "energy": 0.405,
+      "valence": 0.672,
+      "acousticness": 0.611,
+      "speechiness": 0.0389,
+      "liveness": 0.105
+    },
+    {
+      "playlist_genre": "country",
+      "popularity_bucket": 30,
+      "danceability": 0.55325,
+      "energy": 0.4895,
+      "valence": 0.54325,
+      "acousticness": 0.59575,
+      "speechiness": 0.0375,
+      "liveness": 0.17650000000000002
+    },
+    {
+      "playlist_genre": "country",
+      "popularity_bucket": 40,
+      "danceability": 0.552,
+      "energy": 0.336,
+      "valence": 0.553,
+      "acousticness": 0.828,
+      "speechiness": 0.0311,
+      "liveness": 0.324
+    },
+    {
+      "playlist_genre": "country",
+      "popularity_bucket": 50,
+      "danceability": 0.681,
+      "energy": 0.599,
+      "valence": 0.69,
+      "acousticness": 0.28500000000000003,
+      "speechiness": 0.02665,
+      "liveness": 0.295
+    },
+    {
+      "playlist_genre": "country",
+      "popularity_bucket": 60,
+      "danceability": 0.363,
+      "energy": 0.361,
+      "valence": 0.612,
+      "acousticness": 0.623,
+      "speechiness": 0.0499,
+      "liveness": 0.154
+    },
+    {
+      "playlist_genre": "country",
+      "popularity_bucket": 70,
+      "danceability": 0.637,
+      "energy": 0.431,
+      "valence": 0.7395,
+      "acousticness": 0.30300000000000005,
+      "speechiness": 0.04875,
+      "liveness": 0.28700000000000003
+    },
+    {
+      "playlist_genre": "disco",
+      "popularity_bucket": 10,
+      "danceability": 0.73475,
+      "energy": 0.7537499999999999,
+      "valence": 0.6325000000000001,
+      "acousticness": 0.044413525,
+      "speechiness": 0.044175,
+      "liveness": 0.153925
+    },
+    {
+      "playlist_genre": "disco",
+      "popularity_bucket": 20,
+      "danceability": 0.7453333333333333,
+      "energy": 0.5306666666666667,
+      "valence": 0.7879999999999999,
+      "acousticness": 0.020554666666666666,
+      "speechiness": 0.045066666666666665,
+      "liveness": 0.1139
+    },
+    {
+      "playlist_genre": "disco",
+      "popularity_bucket": 30,
+      "danceability": 0.671,
+      "energy": 0.728,
+      "valence": 0.488,
+      "acousticness": 0.000372,
+      "speechiness": 0.0403,
+      "liveness": 0.385
+    },
+    {
+      "playlist_genre": "disco",
+      "popularity_bucket": 50,
+      "danceability": 0.868,
+      "energy": 0.788,
+      "valence": 0.961,
+      "acousticness": 0.0334,
+      "speechiness": 0.0547,
+      "liveness": 0.0801
+    },
+    {
+      "playlist_genre": "electronic",
+      "popularity_bucket": 10,
+      "danceability": 0.3666690476190476,
+      "energy": 0.295852380952381,
+      "valence": 0.19940476190476192,
+      "acousticness": 0.7036549761904761,
+      "speechiness": 0.05207857142857143,
+      "liveness": 0.13235238095238094
+    },
+    {
+      "playlist_genre": "electronic",
+      "popularity_bucket": 20,
+      "danceability": 0.46202,
+      "energy": 0.40769500000000003,
+      "valence": 0.23445666666666665,
+      "acousticness": 0.586722,
+      "speechiness": 0.05815,
+      "liveness": 0.10815
+    },
+    {
+      "playlist_genre": "electronic",
+      "popularity_bucket": 30,
+      "danceability": 0.5001295081967213,
+      "energy": 0.5157934426229508,
+      "valence": 0.30863770491803283,
+      "acousticness": 0.44022930786885245,
+      "speechiness": 0.06233770491803279,
+      "liveness": 0.14894918032786886
+    },
+    {
+      "playlist_genre": "electronic",
+      "popularity_bucket": 40,
+      "danceability": 0.6180487804878049,
+      "energy": 0.6237487804878048,
+      "valence": 0.29592926829268296,
+      "acousticness": 0.28386018048780487,
+      "speechiness": 0.061881707317073174,
+      "liveness": 0.1589341463414634
+    },
+    {
+      "playlist_genre": "electronic",
+      "popularity_bucket": 50,
+      "danceability": 0.6312162162162163,
+      "energy": 0.7155878378378379,
+      "valence": 0.3838135135135135,
+      "acousticness": 0.24471224324324325,
+      "speechiness": 0.1025,
+      "liveness": 0.2209074324324324
+    },
+    {
+      "playlist_genre": "electronic",
+      "popularity_bucket": 60,
+      "danceability": 0.6631782178217821,
+      "energy": 0.7194851485148516,
+      "valence": 0.4548247524752475,
+      "acousticness": 0.18196121782178218,
+      "speechiness": 0.07703465346534653,
+      "liveness": 0.16548118811881188
+    },
+    {
+      "playlist_genre": "electronic",
+      "popularity_bucket": 70,
+      "danceability": 0.6763495145631068,
+      "energy": 0.7313330097087378,
+      "valence": 0.46155631067961167,
+      "acousticness": 0.19121764077669903,
+      "speechiness": 0.0727,
+      "liveness": 0.18237864077669902
+    },
+    {
+      "playlist_genre": "electronic",
+      "popularity_bucket": 80,
+      "danceability": 0.6889090909090909,
+      "energy": 0.7431818181818183,
+      "valence": 0.4728636363636364,
+      "acousticness": 0.14666727272727273,
+      "speechiness": 0.07018636363636364,
+      "liveness": 0.1537909090909091
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 10,
+      "danceability": 0.565,
+      "energy": 0.337,
+      "valence": 0.35,
+      "acousticness": 0.919,
+      "speechiness": 0.0302,
+      "liveness": 0.405
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 20,
+      "danceability": 0.5341666666666667,
+      "energy": 0.37395,
+      "valence": 0.2595,
+      "acousticness": 0.5905666666666667,
+      "speechiness": 0.051300000000000005,
+      "liveness": 0.19658333333333333
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 30,
+      "danceability": 0.5836250000000001,
+      "energy": 0.4685,
+      "valence": 0.459125,
+      "acousticness": 0.5615,
+      "speechiness": 0.050562499999999996,
+      "liveness": 0.16066249999999999
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 40,
+      "danceability": 0.56125,
+      "energy": 0.34975,
+      "valence": 0.37424999999999997,
+      "acousticness": 0.6835,
+      "speechiness": 0.0336,
+      "liveness": 0.109975
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 50,
+      "danceability": 0.633,
+      "energy": 0.4612857142857143,
+      "valence": 0.5857142857142856,
+      "acousticness": 0.7767142857142858,
+      "speechiness": 0.03942857142857143,
+      "liveness": 0.12197142857142858
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 60,
+      "danceability": 0.5270714285714286,
+      "energy": 0.4943571428571429,
+      "valence": 0.5177142857142857,
+      "acousticness": 0.5511389999999999,
+      "speechiness": 0.038407142857142855,
+      "liveness": 0.19374285714285713
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 70,
+      "danceability": 0.585590909090909,
+      "energy": 0.4030909090909091,
+      "valence": 0.4245227272727272,
+      "acousticness": 0.6233736818181819,
+      "speechiness": 0.038372727272727274,
+      "liveness": 0.14599545454545454
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 80,
+      "danceability": 0.5064,
+      "energy": 0.437,
+      "valence": 0.4888,
+      "acousticness": 0.633,
+      "speechiness": 0.04908,
+      "liveness": 0.17232
+    },
+    {
+      "playlist_genre": "folk",
+      "popularity_bucket": 90,
+      "danceability": 0.494,
+      "energy": 0.413,
+      "valence": 0.273,
+      "acousticness": 0.682,
+      "speechiness": 0.0254,
+      "liveness": 0.193
+    },
+    {
+      "playlist_genre": "funk",
+      "popularity_bucket": 20,
+      "danceability": 0.7471818181818182,
+      "energy": 0.8031818181818182,
+      "valence": 0.6392727272727273,
+      "acousticness": 0.07593618181818182,
+      "speechiness": 0.1970727272727273,
+      "liveness": 0.2534090909090909
+    },
+    {
+      "playlist_genre": "funk",
+      "popularity_bucket": 30,
+      "danceability": 0.6830714285714287,
+      "energy": 0.8112142857142857,
+      "valence": 0.6473571428571429,
+      "acousticness": 0.0049011428571428565,
+      "speechiness": 0.24854285714285715,
+      "liveness": 0.35942857142857143
+    },
+    {
+      "playlist_genre": "funk",
+      "popularity_bucket": 40,
+      "danceability": 0.7405,
+      "energy": 0.757,
+      "valence": 0.68,
+      "acousticness": 0.10205,
+      "speechiness": 0.0532,
+      "liveness": 0.09
+    },
+    {
+      "playlist_genre": "funk",
+      "popularity_bucket": 50,
+      "danceability": 0.612,
+      "energy": 0.938,
+      "valence": 0.595,
+      "acousticness": 2.51e-05,
+      "speechiness": 0.0562,
+      "liveness": 0.329
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 20,
+      "danceability": 0.1972,
+      "energy": 0.3814,
+      "valence": 0.16738,
+      "acousticness": 0.56025,
+      "speechiness": 0.04234,
+      "liveness": 0.09656
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 30,
+      "danceability": 0.3327,
+      "energy": 0.45680000000000004,
+      "valence": 0.20668999999999998,
+      "acousticness": 0.45328194,
+      "speechiness": 0.041139999999999996,
+      "liveness": 0.16174
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 40,
+      "danceability": 0.341,
+      "energy": 0.47167000000000003,
+      "valence": 0.21115,
+      "acousticness": 0.45330663,
+      "speechiness": 0.053739999999999996,
+      "liveness": 0.13076
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 50,
+      "danceability": 0.24847999999999998,
+      "energy": 0.372458,
+      "valence": 0.18386,
+      "acousticness": 0.575652,
+      "speechiness": 0.05904,
+      "liveness": 0.09218
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 60,
+      "danceability": 0.5346666666666667,
+      "energy": 0.27366666666666667,
+      "valence": 0.21866666666666665,
+      "acousticness": 0.8896666666666667,
+      "speechiness": 0.03623333333333333,
+      "liveness": 0.08973333333333333
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 70,
+      "danceability": 0.7197777777777777,
+      "energy": 0.7274444444444444,
+      "valence": 0.5077022222222222,
+      "acousticness": 0.1609951111111111,
+      "speechiness": 0.12381333333333333,
+      "liveness": 0.18414222222222223
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 80,
+      "danceability": 0.7032745098039215,
+      "energy": 0.6921960784313725,
+      "valence": 0.496156862745098,
+      "acousticness": 0.17205460784313725,
+      "speechiness": 0.09715490196078432,
+      "liveness": 0.18046274509803922
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 90,
+      "danceability": 0.7159999999999999,
+      "energy": 0.6163333333333333,
+      "valence": 0.6376666666666666,
+      "acousticness": 0.11906666666666667,
+      "speechiness": 0.0333,
+      "liveness": 0.13003333333333333
+    },
+    {
+      "playlist_genre": "gaming",
+      "popularity_bucket": 100,
+      "danceability": 0.521,
+      "energy": 0.592,
+      "valence": 0.535,
+      "acousticness": 0.308,
+      "speechiness": 0.0304,
+      "liveness": 0.122
+    },
+    {
+      "playlist_genre": "gospel",
+      "popularity_bucket": 20,
+      "danceability": 0.682,
+      "energy": 0.81,
+      "valence": 0.867,
+      "acousticness": 0.235,
+      "speechiness": 0.069,
+      "liveness": 0.157
+    },
+    {
+      "playlist_genre": "gospel",
+      "popularity_bucket": 30,
+      "danceability": 0.544125,
+      "energy": 0.750875,
+      "valence": 0.47575,
+      "acousticness": 0.24595,
+      "speechiness": 0.16810000000000003,
+      "liveness": 0.266625
+    },
+    {
+      "playlist_genre": "gospel",
+      "popularity_bucket": 40,
+      "danceability": 0.48511111111111105,
+      "energy": 0.6272222222222221,
+      "valence": 0.3114444444444444,
+      "acousticness": 0.24536333333333335,
+      "speechiness": 0.11701111111111112,
+      "liveness": 0.2300666666666667
+    },
+    {
+      "playlist_genre": "gospel",
+      "popularity_bucket": 50,
+      "danceability": 0.5457142857142857,
+      "energy": 0.7385238095238096,
+      "valence": 0.5294285714285715,
+      "acousticness": 0.2612185714285714,
+      "speechiness": 0.07459523809523809,
+      "liveness": 0.2653428571428571
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 10,
+      "danceability": 0.6595714285714286,
+      "energy": 0.7246666666666667,
+      "valence": 0.5969047619047619,
+      "acousticness": 0.20747476190476188,
+      "speechiness": 0.21557619047619048,
+      "liveness": 0.20233809523809526
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 20,
+      "danceability": 0.73375,
+      "energy": 0.6529166666666667,
+      "valence": 0.52575,
+      "acousticness": 0.10487,
+      "speechiness": 0.2539166666666666,
+      "liveness": 0.16119166666666665
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 30,
+      "danceability": 0.7716666666666667,
+      "energy": 0.6957777777777778,
+      "valence": 0.5468888888888889,
+      "acousticness": 0.160805,
+      "speechiness": 0.3118888888888889,
+      "liveness": 0.1869611111111111
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 40,
+      "danceability": 0.753375,
+      "energy": 0.669625,
+      "valence": 0.593,
+      "acousticness": 0.23340625,
+      "speechiness": 0.20253125,
+      "liveness": 0.15463125
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 50,
+      "danceability": 0.7618666666666667,
+      "energy": 0.6809666666666666,
+      "valence": 0.6457333333333334,
+      "acousticness": 0.2730164666666666,
+      "speechiness": 0.2634066666666667,
+      "liveness": 0.21610666666666667
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 60,
+      "danceability": 0.7726106194690265,
+      "energy": 0.6152300884955753,
+      "valence": 0.542116814159292,
+      "acousticness": 0.22713045132743365,
+      "speechiness": 0.24915486725663716,
+      "liveness": 0.19072477876106195
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 70,
+      "danceability": 0.7383691275167785,
+      "energy": 0.6388926174496644,
+      "valence": 0.4781208053691275,
+      "acousticness": 0.16993903355704698,
+      "speechiness": 0.19914093959731544,
+      "liveness": 0.1625986577181208
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 80,
+      "danceability": 0.7006969696969697,
+      "energy": 0.6313939393939394,
+      "valence": 0.34004242424242426,
+      "acousticness": 0.15686657575757576,
+      "speechiness": 0.16123030303030303,
+      "liveness": 0.19697575757575755
+    },
+    {
+      "playlist_genre": "hip-hop",
+      "popularity_bucket": 90,
+      "danceability": 0.6986666666666667,
+      "energy": 0.6676666666666667,
+      "valence": 0.5866666666666666,
+      "acousticness": 0.1626,
+      "speechiness": 0.06576666666666667,
+      "liveness": 0.11033333333333334
+    },
+    {
+      "playlist_genre": "indian",
+      "popularity_bucket": 10,
+      "danceability": 0.44849999999999995,
+      "energy": 0.7195,
+      "valence": 0.7481666666666666,
+      "acousticness": 0.8085,
+      "speechiness": 0.09085,
+      "liveness": 0.17993333333333336
+    },
+    {
+      "playlist_genre": "indian",
+      "popularity_bucket": 20,
+      "danceability": 0.575076923076923,
+      "energy": 0.6066153846153847,
+      "valence": 0.5222307692307692,
+      "acousticness": 0.4146153846153846,
+      "speechiness": 0.13323076923076924,
+      "liveness": 0.22385384615384615
+    },
+    {
+      "playlist_genre": "indian",
+      "popularity_bucket": 30,
+      "danceability": 0.47100000000000003,
+      "energy": 0.7076666666666668,
+      "valence": 0.6523333333333333,
+      "acousticness": 0.4714333333333333,
+      "speechiness": 0.11143333333333333,
+      "liveness": 0.18506666666666668
+    },
+    {
+      "playlist_genre": "indian",
+      "popularity_bucket": 40,
+      "danceability": 0.6957142857142857,
+      "energy": 0.7927142857142856,
+      "valence": 0.5934285714285714,
+      "acousticness": 0.16134142857142855,
+      "speechiness": 0.1404,
+      "liveness": 0.2278
+    },
+    {
+      "playlist_genre": "indian",
+      "popularity_bucket": 50,
+      "danceability": 0.671125,
+      "energy": 0.750125,
+      "valence": 0.525125,
+      "acousticness": 0.32985,
+      "speechiness": 0.13075,
+      "liveness": 0.16518750000000001
+    },
+    {
+      "playlist_genre": "indian",
+      "popularity_bucket": 60,
+      "danceability": 0.6896923076923076,
+      "energy": 0.7321538461538462,
+      "valence": 0.5378461538461539,
+      "acousticness": 0.23405384615384614,
+      "speechiness": 0.0639923076923077,
+      "liveness": 0.16065384615384615
+    },
+    {
+      "playlist_genre": "indian",
+      "popularity_bucket": 70,
+      "danceability": 0.6684285714285715,
+      "energy": 0.6498571428571428,
+      "valence": 0.542,
+      "acousticness": 0.49965714285714286,
+      "speechiness": 0.05174285714285714,
+      "liveness": 0.17744285714285715
+    },
+    {
+      "playlist_genre": "indie",
+      "popularity_bucket": 50,
+      "danceability": 0.6047142857142858,
+      "energy": 0.6768571428571428,
+      "valence": 0.5521428571428572,
+      "acousticness": 0.12047142857142858,
+      "speechiness": 0.033914285714285716,
+      "liveness": 0.16102857142857144
+    },
+    {
+      "playlist_genre": "indie",
+      "popularity_bucket": 60,
+      "danceability": 0.6357142857142858,
+      "energy": 0.7271428571428571,
+      "valence": 0.717,
+      "acousticness": 0.05968285714285715,
+      "speechiness": 0.041128571428571424,
+      "liveness": 0.12844285714285714
+    },
+    {
+      "playlist_genre": "indie",
+      "popularity_bucket": 70,
+      "danceability": 0.694,
+      "energy": 0.7766666666666667,
+      "valence": 0.7406666666666667,
+      "acousticness": 0.11736666666666666,
+      "speechiness": 0.0492,
+      "liveness": 0.11059999999999999
+    },
+    {
+      "playlist_genre": "j-pop",
+      "popularity_bucket": 40,
+      "danceability": 0.571,
+      "energy": 0.415,
+      "valence": 0.342,
+      "acousticness": 0.615,
+      "speechiness": 0.0305,
+      "liveness": 0.187
+    },
+    {
+      "playlist_genre": "j-pop",
+      "popularity_bucket": 50,
+      "danceability": 0.542,
+      "energy": 0.8501428571428572,
+      "valence": 0.5488571428571428,
+      "acousticness": 0.1309357142857143,
+      "speechiness": 0.10214285714285713,
+      "liveness": 0.1966142857142857
+    },
+    {
+      "playlist_genre": "j-pop",
+      "popularity_bucket": 60,
+      "danceability": 0.589125,
+      "energy": 0.838125,
+      "valence": 0.558125,
+      "acousticness": 0.145799,
+      "speechiness": 0.083125,
+      "liveness": 0.1593625
+    },
+    {
+      "playlist_genre": "j-pop",
+      "popularity_bucket": 70,
+      "danceability": 0.5668333333333333,
+      "energy": 0.8406666666666668,
+      "valence": 0.6671666666666667,
+      "acousticness": 0.04667833333333333,
+      "speechiness": 0.10706666666666668,
+      "liveness": 0.18918333333333334
+    },
+    {
+      "playlist_genre": "j-pop",
+      "popularity_bucket": 80,
+      "danceability": 0.853,
+      "energy": 0.822,
+      "valence": 0.746,
+      "acousticness": 0.0841,
+      "speechiness": 0.246,
+      "liveness": 0.166
+    },
+    {
+      "playlist_genre": "jazz",
+      "popularity_bucket": 10,
+      "danceability": 0.374,
+      "energy": 0.341,
+      "valence": 0.288,
+      "acousticness": 0.576,
+      "speechiness": 0.0416,
+      "liveness": 0.105
+    },
+    {
+      "playlist_genre": "jazz",
+      "popularity_bucket": 20,
+      "danceability": 0.6853333333333333,
+      "energy": 0.5218333333333334,
+      "valence": 0.6998333333333333,
+      "acousticness": 0.4973666666666667,
+      "speechiness": 0.04125,
+      "liveness": 0.1401
+    },
+    {
+      "playlist_genre": "jazz",
+      "popularity_bucket": 30,
+      "danceability": 0.7468571428571428,
+      "energy": 0.4734285714285714,
+      "valence": 0.7767142857142858,
+      "acousticness": 0.5019,
+      "speechiness": 0.04782857142857143,
+      "liveness": 0.16505714285714285
+    },
+    {
+      "playlist_genre": "jazz",
+      "popularity_bucket": 40,
+      "danceability": 0.6782897196261682,
+      "energy": 0.4187289719626168,
+      "valence": 0.4685822429906542,
+      "acousticness": 0.4803307476635514,
+      "speechiness": 0.10450934579439251,
+      "liveness": 0.1387588785046729
+    },
+    {
+      "playlist_genre": "jazz",
+      "popularity_bucket": 50,
+      "danceability": 0.5783684210526316,
+      "energy": 0.32504210526315785,
+      "valence": 0.4195684210526316,
+      "acousticness": 0.6798578947368421,
+      "speechiness": 0.07433684210526315,
+      "liveness": 0.11793684210526316
+    },
+    {
+      "playlist_genre": "jazz",
+      "popularity_bucket": 60,
+      "danceability": 0.5923333333333334,
+      "energy": 0.2865,
+      "valence": 0.44650000000000006,
+      "acousticness": 0.7211666666666666,
+      "speechiness": 0.06741666666666667,
+      "liveness": 0.12994999999999998
+    },
+    {
+      "playlist_genre": "k-pop",
+      "popularity_bucket": 40,
+      "danceability": 0.807,
+      "energy": 0.828,
+      "valence": 0.672,
+      "acousticness": 0.00101,
+      "speechiness": 0.0628,
+      "liveness": 0.143
+    },
+    {
+      "playlist_genre": "k-pop",
+      "popularity_bucket": 50,
+      "danceability": 0.6555,
+      "energy": 0.855,
+      "valence": 0.6890000000000001,
+      "acousticness": 0.0268,
+      "speechiness": 0.19779999999999998,
+      "liveness": 0.245
+    },
+    {
+      "playlist_genre": "k-pop",
+      "popularity_bucket": 60,
+      "danceability": 0.76025,
+      "energy": 0.67575,
+      "valence": 0.67275,
+      "acousticness": 0.045177499999999995,
+      "speechiness": 0.13362500000000002,
+      "liveness": 0.17945
+    },
+    {
+      "playlist_genre": "k-pop",
+      "popularity_bucket": 70,
+      "danceability": 0.7621111111111111,
+      "energy": 0.7592222222222222,
+      "valence": 0.6472222222222223,
+      "acousticness": 0.1637888888888889,
+      "speechiness": 0.09842222222222223,
+      "liveness": 0.1507
+    },
+    {
+      "playlist_genre": "k-pop",
+      "popularity_bucket": 80,
+      "danceability": 0.668,
+      "energy": 0.628,
+      "valence": 0.568,
+      "acousticness": 0.129,
+      "speechiness": 0.046,
+      "liveness": 0.0293
+    },
+    {
+      "playlist_genre": "korean",
+      "popularity_bucket": 50,
+      "danceability": 0.568076923076923,
+      "energy": 0.5697692307692308,
+      "valence": 0.3565384615384615,
+      "acousticness": 0.5529692307692308,
+      "speechiness": 0.03107692307692308,
+      "liveness": 0.13900769230769233
+    },
+    {
+      "playlist_genre": "korean",
+      "popularity_bucket": 60,
+      "danceability": 0.5143888888888889,
+      "energy": 0.5485555555555556,
+      "valence": 0.33638888888888885,
+      "acousticness": 0.5269444444444444,
+      "speechiness": 0.049944444444444444,
+      "liveness": 0.16415
+    },
+    {
+      "playlist_genre": "korean",
+      "popularity_bucket": 70,
+      "danceability": 0.59,
+      "energy": 0.557,
+      "valence": 0.40399999999999997,
+      "acousticness": 0.5313333333333333,
+      "speechiness": 0.027866666666666668,
+      "liveness": 0.09246666666666666
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 10,
+      "danceability": 0.6677037037037037,
+      "energy": 0.474962962962963,
+      "valence": 0.5048888888888888,
+      "acousticness": 0.48821777777777775,
+      "speechiness": 0.13908148148148147,
+      "liveness": 0.15027037037037036
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 20,
+      "danceability": 0.6867674418604651,
+      "energy": 0.5433720930232558,
+      "valence": 0.5063209302325581,
+      "acousticness": 0.37031720930232553,
+      "speechiness": 0.13725116279069766,
+      "liveness": 0.16363023255813955
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 30,
+      "danceability": 0.726047619047619,
+      "energy": 0.5996666666666667,
+      "valence": 0.5885952380952381,
+      "acousticness": 0.40230547619047624,
+      "speechiness": 0.15125952380952382,
+      "liveness": 0.16953809523809524
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 40,
+      "danceability": 0.738,
+      "energy": 0.6272857142857143,
+      "valence": 0.6152857142857142,
+      "acousticness": 0.32204357142857143,
+      "speechiness": 0.14755714285714286,
+      "liveness": 0.13987619047619046
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 50,
+      "danceability": 0.7349777777777777,
+      "energy": 0.6463777777777777,
+      "valence": 0.6067977777777778,
+      "acousticness": 0.23059244444444443,
+      "speechiness": 0.12582000000000002,
+      "liveness": 0.1658311111111111
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 60,
+      "danceability": 0.7695866666666666,
+      "energy": 0.70496,
+      "valence": 0.65516,
+      "acousticness": 0.20756533333333335,
+      "speechiness": 0.13302533333333333,
+      "liveness": 0.164244
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 70,
+      "danceability": 0.7358333333333333,
+      "energy": 0.6722314814814815,
+      "valence": 0.5894537037037038,
+      "acousticness": 0.26463296296296296,
+      "speechiness": 0.11867129629629629,
+      "liveness": 0.14728703703703705
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 80,
+      "danceability": 0.72375,
+      "energy": 0.646125,
+      "valence": 0.5678,
+      "acousticness": 0.3039925,
+      "speechiness": 0.12484999999999999,
+      "liveness": 0.17213
+    },
+    {
+      "playlist_genre": "latin",
+      "popularity_bucket": 90,
+      "danceability": 0.8473333333333333,
+      "energy": 0.6623333333333333,
+      "valence": 0.6816666666666666,
+      "acousticness": 0.4626666666666666,
+      "speechiness": 0.0574,
+      "liveness": 0.07143333333333333
+    },
+    {
+      "playlist_genre": "lofi",
+      "popularity_bucket": 10,
+      "danceability": 0.788,
+      "energy": 0.446,
+      "valence": 0.545,
+      "acousticness": 0.54,
+      "speechiness": 0.0693,
+      "liveness": 0.273
+    },
+    {
+      "playlist_genre": "lofi",
+      "popularity_bucket": 20,
+      "danceability": 0.6364,
+      "energy": 0.3992,
+      "valence": 0.3348,
+      "acousticness": 0.732,
+      "speechiness": 0.06828999999999999,
+      "liveness": 0.10811
+    },
+    {
+      "playlist_genre": "lofi",
+      "popularity_bucket": 30,
+      "danceability": 0.664,
+      "energy": 0.43440625,
+      "valence": 0.35140625,
+      "acousticness": 0.7540250000000001,
+      "speechiness": 0.065490625,
+      "liveness": 0.198678125
+    },
+    {
+      "playlist_genre": "lofi",
+      "popularity_bucket": 40,
+      "danceability": 0.666632,
+      "energy": 0.296072,
+      "valence": 0.33058,
+      "acousticness": 0.6509704000000001,
+      "speechiness": 0.0848272,
+      "liveness": 0.1374432
+    },
+    {
+      "playlist_genre": "lofi",
+      "popularity_bucket": 50,
+      "danceability": 0.66144,
+      "energy": 0.2473736,
+      "valence": 0.2902232,
+      "acousticness": 0.7701936,
+      "speechiness": 0.0994624,
+      "liveness": 0.1460376
+    },
+    {
+      "playlist_genre": "lofi",
+      "popularity_bucket": 60,
+      "danceability": 0.6086666666666667,
+      "energy": 0.249,
+      "valence": 0.18746666666666667,
+      "acousticness": 0.6215666666666667,
+      "speechiness": 0.04646666666666666,
+      "liveness": 0.16333333333333333
+    },
+    {
+      "playlist_genre": "lofi",
+      "popularity_bucket": 70,
+      "danceability": 0.51,
+      "energy": 0.1815,
+      "valence": 0.10675,
+      "acousticness": 0.8069999999999999,
+      "speechiness": 0.11185,
+      "liveness": 0.11904999999999999
+    },
+    {
+      "playlist_genre": "mandopop",
+      "popularity_bucket": 40,
+      "danceability": 0.5364,
+      "energy": 0.6324,
+      "valence": 0.40120000000000006,
+      "acousticness": 0.3678,
+      "speechiness": 0.0541,
+      "liveness": 0.13236
+    },
+    {
+      "playlist_genre": "mandopop",
+      "popularity_bucket": 50,
+      "danceability": 0.48742857142857143,
+      "energy": 0.4937142857142857,
+      "valence": 0.362,
+      "acousticness": 0.5958857142857142,
+      "speechiness": 0.07832857142857143,
+      "liveness": 0.1977
+    },
+    {
+      "playlist_genre": "mandopop",
+      "popularity_bucket": 60,
+      "danceability": 0.562,
+      "energy": 0.625,
+      "valence": 0.2845,
+      "acousticness": 0.2406,
+      "speechiness": 0.03465,
+      "liveness": 0.3205
+    },
+    {
+      "playlist_genre": "metal",
+      "popularity_bucket": 30,
+      "danceability": 0.46,
+      "energy": 0.876,
+      "valence": 0.499,
+      "acousticness": 6.85e-05,
+      "speechiness": 0.045,
+      "liveness": 0.151
+    },
+    {
+      "playlist_genre": "metal",
+      "popularity_bucket": 40,
+      "danceability": 0.5,
+      "energy": 0.832,
+      "valence": 0.593,
+      "acousticness": 0.0191,
+      "speechiness": 0.0513,
+      "liveness": 0.0829
+    },
+    {
+      "playlist_genre": "metal",
+      "popularity_bucket": 50,
+      "danceability": 0.5345,
+      "energy": 0.9570000000000001,
+      "valence": 0.348,
+      "acousticness": 0.0011722500000000001,
+      "speechiness": 0.05835,
+      "liveness": 0.1175
+    },
+    {
+      "playlist_genre": "metal",
+      "popularity_bucket": 60,
+      "danceability": 0.41533333333333333,
+      "energy": 0.8857222222222222,
+      "valence": 0.2982777777777778,
+      "acousticness": 0.004554055555555556,
+      "speechiness": 0.11447777777777778,
+      "liveness": 0.18576111111111113
+    },
+    {
+      "playlist_genre": "metal",
+      "popularity_bucket": 70,
+      "danceability": 0.4708260869565218,
+      "energy": 0.8556521739130435,
+      "valence": 0.5220434782608695,
+      "acousticness": 0.0037508782608695656,
+      "speechiness": 0.05801304347826087,
+      "liveness": 0.1584782608695652
+    },
+    {
+      "playlist_genre": "metal",
+      "popularity_bucket": 80,
+      "danceability": 0.38549999999999995,
+      "energy": 0.958,
+      "valence": 0.2405,
+      "acousticness": 0.00025749999999999997,
+      "speechiness": 0.14350000000000002,
+      "liveness": 0.16799999999999998
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 10,
+      "danceability": 0.6384000000000001,
+      "energy": 0.69505,
+      "valence": 0.5174525,
+      "acousticness": 0.1515452,
+      "speechiness": 0.0622625,
+      "liveness": 0.1779575
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 20,
+      "danceability": 0.6026730769230769,
+      "energy": 0.6786538461538462,
+      "valence": 0.46052115384615383,
+      "acousticness": 0.16032326923076923,
+      "speechiness": 0.06943076923076923,
+      "liveness": 0.1771923076923077
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 30,
+      "danceability": 0.6241599999999999,
+      "energy": 0.69196,
+      "valence": 0.519572,
+      "acousticness": 0.12714556,
+      "speechiness": 0.057943999999999996,
+      "liveness": 0.20151600000000003
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 40,
+      "danceability": 0.6277222222222222,
+      "energy": 0.6809999999999999,
+      "valence": 0.6250333333333333,
+      "acousticness": 0.1519105,
+      "speechiness": 0.04836111111111111,
+      "liveness": 0.1666
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 50,
+      "danceability": 0.6465,
+      "energy": 0.571,
+      "valence": 0.5128,
+      "acousticness": 0.29331999999999997,
+      "speechiness": 0.05526,
+      "liveness": 0.22257
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 60,
+      "danceability": 0.6471176470588235,
+      "energy": 0.5675294117647058,
+      "valence": 0.5300470588235294,
+      "acousticness": 0.4573705882352941,
+      "speechiness": 0.04652941176470588,
+      "liveness": 0.15751176470588235
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 70,
+      "danceability": 0.6699398907103825,
+      "energy": 0.7011841530054644,
+      "valence": 0.6013333333333333,
+      "acousticness": 0.1677555918032787,
+      "speechiness": 0.06886830601092896,
+      "liveness": 0.17353879781420764
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 80,
+      "danceability": 0.6331063829787235,
+      "energy": 0.6690283687943263,
+      "valence": 0.554763829787234,
+      "acousticness": 0.23241287234042554,
+      "speechiness": 0.06770070921985816,
+      "liveness": 0.1785531914893617
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 90,
+      "danceability": 0.6624444444444444,
+      "energy": 0.6240740740740741,
+      "valence": 0.5624074074074075,
+      "acousticness": 0.26081037037037036,
+      "speechiness": 0.06000740740740741,
+      "liveness": 0.14931851851851852
+    },
+    {
+      "playlist_genre": "pop",
+      "popularity_bucket": 100,
+      "danceability": 0.521,
+      "energy": 0.592,
+      "valence": 0.535,
+      "acousticness": 0.308,
+      "speechiness": 0.0304,
+      "liveness": 0.122
+    },
+    {
+      "playlist_genre": "punk",
+      "popularity_bucket": 20,
+      "danceability": 0.474,
+      "energy": 0.671,
+      "valence": 0.0682,
+      "acousticness": 0.0129,
+      "speechiness": 0.0289,
+      "liveness": 0.159
+    },
+    {
+      "playlist_genre": "punk",
+      "popularity_bucket": 40,
+      "danceability": 0.5071,
+      "energy": 0.7859,
+      "valence": 0.765,
+      "acousticness": 0.213358,
+      "speechiness": 0.11653,
+      "liveness": 0.24985
+    },
+    {
+      "playlist_genre": "punk",
+      "popularity_bucket": 50,
+      "danceability": 0.449,
+      "energy": 0.7423333333333333,
+      "valence": 0.4910666666666666,
+      "acousticness": 0.14260266666666666,
+      "speechiness": 0.040383333333333334,
+      "liveness": 0.22030000000000002
+    },
+    {
+      "playlist_genre": "punk",
+      "popularity_bucket": 60,
+      "danceability": 0.4888235294117647,
+      "energy": 0.867,
+      "valence": 0.563764705882353,
+      "acousticness": 0.0196479,
+      "speechiness": 0.06331764705882353,
+      "liveness": 0.2632529411764706
+    },
+    {
+      "playlist_genre": "punk",
+      "popularity_bucket": 70,
+      "danceability": 0.4815428571428571,
+      "energy": 0.8631714285714285,
+      "valence": 0.5476771428571429,
+      "acousticness": 0.019906534285714286,
+      "speechiness": 0.06928857142857144,
+      "liveness": 0.18744285714285716
+    },
+    {
+      "playlist_genre": "punk",
+      "popularity_bucket": 80,
+      "danceability": 0.5622,
+      "energy": 0.834,
+      "valence": 0.6166,
+      "acousticness": 0.024034,
+      "speechiness": 0.07882,
+      "liveness": 0.365
+    },
+    {
+      "playlist_genre": "r&b",
+      "popularity_bucket": 60,
+      "danceability": 0.73575,
+      "energy": 0.543,
+      "valence": 0.578,
+      "acousticness": 0.0824,
+      "speechiness": 0.1053,
+      "liveness": 0.145925
+    },
+    {
+      "playlist_genre": "r&b",
+      "popularity_bucket": 70,
+      "danceability": 0.6403888888888889,
+      "energy": 0.5480555555555555,
+      "valence": 0.539611111111111,
+      "acousticness": 0.3277454444444444,
+      "speechiness": 0.12385555555555555,
+      "liveness": 0.20242222222222223
+    },
+    {
+      "playlist_genre": "r&b",
+      "popularity_bucket": 80,
+      "danceability": 0.5859,
+      "energy": 0.5107,
+      "valence": 0.4077,
+      "acousticness": 0.41468,
+      "speechiness": 0.09623000000000001,
+      "liveness": 0.16459
+    },
+    {
+      "playlist_genre": "reggae",
+      "popularity_bucket": 40,
+      "danceability": 0.652,
+      "energy": 0.7416666666666667,
+      "valence": 0.6609999999999999,
+      "acousticness": 0.05946666666666667,
+      "speechiness": 0.0405,
+      "liveness": 0.21383333333333332
+    },
+    {
+      "playlist_genre": "reggae",
+      "popularity_bucket": 50,
+      "danceability": 0.7605000000000001,
+      "energy": 0.584,
+      "valence": 0.7910999999999999,
+      "acousticness": 0.18835,
+      "speechiness": 0.10154,
+      "liveness": 0.10321
+    },
+    {
+      "playlist_genre": "reggae",
+      "popularity_bucket": 60,
+      "danceability": 0.7814444444444445,
+      "energy": 0.6683333333333334,
+      "valence": 0.7332222222222222,
+      "acousticness": 0.13675333333333334,
+      "speechiness": 0.13090000000000002,
+      "liveness": 0.24986666666666668
+    },
+    {
+      "playlist_genre": "reggae",
+      "popularity_bucket": 70,
+      "danceability": 0.9225000000000001,
+      "energy": 0.5915,
+      "valence": 0.758,
+      "acousticness": 0.2515,
+      "speechiness": 0.20400000000000001,
+      "liveness": 0.0796
+    },
+    {
+      "playlist_genre": "rock",
+      "popularity_bucket": 10,
+      "danceability": 0.4635,
+      "energy": 0.5958333333333333,
+      "valence": 0.38633333333333336,
+      "acousticness": 0.3382036666666666,
+      "speechiness": 0.04213333333333333,
+      "liveness": 0.20450000000000002
+    },
+    {
+      "playlist_genre": "rock",
+      "popularity_bucket": 20,
+      "danceability": 0.53,
+      "energy": 0.6821333333333333,
+      "valence": 0.45156666666666667,
+      "acousticness": 0.12836446666666668,
+      "speechiness": 0.04544,
+      "liveness": 0.18413333333333334
+    },
+    {
+      "playlist_genre": "rock",
+      "popularity_bucket": 30,
+      "danceability": 0.4905,
+      "energy": 0.6445,
+      "valence": 0.49186250000000004,
+      "acousticness": 0.040935374999999996,
+      "speechiness": 0.0343375,
+      "liveness": 0.21885
+    },
+    {
+      "playlist_genre": "rock",
+      "popularity_bucket": 40,
+      "danceability": 0.5036666666666666,
+      "energy": 0.8226666666666667,
+      "valence": 0.45475,
+      "acousticness": 0.048468750000000005,
+      "speechiness": 0.07158333333333333,
+      "liveness": 0.2568333333333333
+    },
+    {
+      "playlist_genre": "rock",
+      "popularity_bucket": 50,
+      "danceability": 0.5662571428571428,
+      "energy": 0.8128857142857143,
+      "valence": 0.6041142857142857,
+      "acousticness": 0.08958906285714285,
+      "speechiness": 0.046982857142857146,
+      "liveness": 0.1685914285714286
+    },
+    {
+      "playlist_genre": "rock",
+      "popularity_bucket": 60,
+      "danceability": 0.5898115942028986,
+      "energy": 0.702536231884058,
+      "valence": 0.6168985507246377,
+      "acousticness": 0.12049478260869566,
+      "speechiness": 0.05008115942028986,
+      "liveness": 0.16101159420289854
+    },
+    {
+      "playlist_genre": "rock",
+      "popularity_bucket": 70,
+      "danceability": 0.531775,
+      "energy": 0.73710625,
+      "valence": 0.57329375,
+      "acousticness": 0.124032128125,
+      "speechiness": 0.05848375,
+      "liveness": 0.18964625
+    },
+    {
+      "playlist_genre": "rock",
+      "popularity_bucket": 80,
+      "danceability": 0.55365,
+      "energy": 0.737575,
+      "valence": 0.57155,
+      "acousticness": 0.05162489499999999,
+      "speechiness": 0.048920000000000005,
+      "liveness": 0.1683125
+    },
+    {
+      "playlist_genre": "soca",
+      "popularity_bucket": 30,
+      "danceability": 0.8018000000000001,
+      "energy": 0.8564,
+      "valence": 0.7933999999999999,
+      "acousticness": 0.196,
+      "speechiness": 0.09884,
+      "liveness": 0.12896000000000002
+    },
+    {
+      "playlist_genre": "soca",
+      "popularity_bucket": 40,
+      "danceability": 0.802625,
+      "energy": 0.874625,
+      "valence": 0.72775,
+      "acousticness": 0.12350000000000001,
+      "speechiness": 0.1149375,
+      "liveness": 0.16970000000000002
+    },
+    {
+      "playlist_genre": "soca",
+      "popularity_bucket": 60,
+      "danceability": 0.699,
+      "energy": 0.675,
+      "valence": 0.442,
+      "acousticness": 0.0654,
+      "speechiness": 0.387,
+      "liveness": 0.143
+    },
+    {
+      "playlist_genre": "soul",
+      "popularity_bucket": 30,
+      "danceability": 0.629,
+      "energy": 0.58525,
+      "valence": 0.592,
+      "acousticness": 0.298425,
+      "speechiness": 0.167225,
+      "liveness": 0.081775
+    },
+    {
+      "playlist_genre": "soul",
+      "popularity_bucket": 40,
+      "danceability": 0.5853846153846154,
+      "energy": 0.5122307692307693,
+      "valence": 0.502076923076923,
+      "acousticness": 0.4356692307692308,
+      "speechiness": 0.12945384615384617,
+      "liveness": 0.16333076923076922
+    },
+    {
+      "playlist_genre": "soul",
+      "popularity_bucket": 50,
+      "danceability": 0.6415263157894737,
+      "energy": 0.5258421052631579,
+      "valence": 0.5065263157894737,
+      "acousticness": 0.41945263157894735,
+      "speechiness": 0.05844736842105264,
+      "liveness": 0.17297894736842104
+    },
+    {
+      "playlist_genre": "soul",
+      "popularity_bucket": 60,
+      "danceability": 0.5438333333333333,
+      "energy": 0.41450000000000004,
+      "valence": 0.43,
+      "acousticness": 0.6626666666666666,
+      "speechiness": 0.12695,
+      "liveness": 0.17298333333333335
+    },
+    {
+      "playlist_genre": "soul",
+      "popularity_bucket": 70,
+      "danceability": 0.591,
+      "energy": 0.473,
+      "valence": 0.451,
+      "acousticness": 0.694,
+      "speechiness": 0.0708,
+      "liveness": 0.108
+    },
+    {
+      "playlist_genre": "soul",
+      "popularity_bucket": 80,
+      "danceability": 0.561,
+      "energy": 0.604,
+      "valence": 0.242,
+      "acousticness": 0.199,
+      "speechiness": 0.0337,
+      "liveness": 0.104
+    },
+    {
+      "playlist_genre": "turkish",
+      "popularity_bucket": 20,
+      "danceability": 0.7025,
+      "energy": 0.702,
+      "valence": 0.47250000000000003,
+      "acousticness": 0.328,
+      "speechiness": 0.05235,
+      "liveness": 0.2815
+    },
+    {
+      "playlist_genre": "turkish",
+      "popularity_bucket": 30,
+      "danceability": 0.6928181818181819,
+      "energy": 0.7487272727272728,
+      "valence": 0.5315454545454545,
+      "acousticness": 0.22826272727272726,
+      "speechiness": 0.08072727272727273,
+      "liveness": 0.2362727272727273
+    },
+    {
+      "playlist_genre": "turkish",
+      "popularity_bucket": 40,
+      "danceability": 0.6712380952380952,
+      "energy": 0.7003809523809524,
+      "valence": 0.5369047619047619,
+      "acousticness": 0.2629338095238095,
+      "speechiness": 0.09718571428571429,
+      "liveness": 0.23171904761904763
+    },
+    {
+      "playlist_genre": "turkish",
+      "popularity_bucket": 50,
+      "danceability": 0.7290000000000001,
+      "energy": 0.6858235294117647,
+      "valence": 0.5281176470588235,
+      "acousticness": 0.1927576470588235,
+      "speechiness": 0.08588235294117647,
+      "liveness": 0.24491176470588236
+    },
+    {
+      "playlist_genre": "turkish",
+      "popularity_bucket": 60,
+      "danceability": 0.6323333333333333,
+      "energy": 0.7088,
+      "valence": 0.4545333333333333,
+      "acousticness": 0.3808173333333334,
+      "speechiness": 0.08445333333333332,
+      "liveness": 0.1932
+    },
+    {
+      "playlist_genre": "turkish",
+      "popularity_bucket": 70,
+      "danceability": 0.7156,
+      "energy": 0.6464000000000001,
+      "valence": 0.5772,
+      "acousticness": 0.41556,
+      "speechiness": 0.0581,
+      "liveness": 0.27266
+    },
+    {
+      "playlist_genre": "wellness",
+      "popularity_bucket": 30,
+      "danceability": 0.16799999999999998,
+      "energy": 0.00564,
+      "valence": 0.07045,
+      "acousticness": 0.976,
+      "speechiness": 0.046,
+      "liveness": 0.118
+    },
+    {
+      "playlist_genre": "wellness",
+      "popularity_bucket": 40,
+      "danceability": 0.15588749999999998,
+      "energy": 0.0084755,
+      "valence": 0.07455416666666667,
+      "acousticness": 0.9462291666666666,
+      "speechiness": 0.048347916666666664,
+      "liveness": 0.11160833333333332
+    },
+    {
+      "playlist_genre": "wellness",
+      "popularity_bucket": 50,
+      "danceability": 0.14405217391304348,
+      "energy": 0.0052123043478260874,
+      "valence": 0.06789565217391304,
+      "acousticness": 0.961304347826087,
+      "speechiness": 0.046839130434782605,
+      "liveness": 0.10808695652173912
+    },
+    {
+      "playlist_genre": "wellness",
+      "popularity_bucket": 60,
+      "danceability": 0.17657142857142857,
+      "energy": 0.006442857142857143,
+      "valence": 0.07371428571428572,
+      "acousticness": 0.969,
+      "speechiness": 0.04757142857142858,
+      "liveness": 0.11312857142857144
+    },
+    {
+      "playlist_genre": "world",
+      "popularity_bucket": 10,
+      "danceability": 0.6161296296296297,
+      "energy": 0.6974333333333333,
+      "valence": 0.4882796296296296,
+      "acousticness": 0.20544674074074076,
+      "speechiness": 0.06522962962962964,
+      "liveness": 0.2048277777777778
+    },
+    {
+      "playlist_genre": "world",
+      "popularity_bucket": 20,
+      "danceability": 0.618054794520548,
+      "energy": 0.6037771232876712,
+      "valence": 0.545613698630137,
+      "acousticness": 0.40723876712328766,
+      "speechiness": 0.06433013698630137,
+      "liveness": 0.13688767123287673
+    },
+    {
+      "playlist_genre": "world",
+      "popularity_bucket": 30,
+      "danceability": 0.5928260869565217,
+      "energy": 0.39211014492753626,
+      "valence": 0.3810927536231884,
+      "acousticness": 0.5521059420289854,
+      "speechiness": 0.04834492753623188,
+      "liveness": 0.2085623188405797
+    },
+    {
+      "playlist_genre": "world",
+      "popularity_bucket": 40,
+      "danceability": 0.6227692307692307,
+      "energy": 0.43038461538461537,
+      "valence": 0.5203076923076922,
+      "acousticness": 0.5930153846153846,
+      "speechiness": 0.0474,
+      "liveness": 0.18127692307692306
+    },
+    {
+      "playlist_genre": "world",
+      "popularity_bucket": 50,
+      "danceability": 0.7636000000000001,
+      "energy": 0.6405000000000001,
+      "valence": 0.7381,
+      "acousticness": 0.27126,
+      "speechiness": 0.1326,
+      "liveness": 0.19373
+    },
+    {
+      "playlist_genre": "world",
+      "popularity_bucket": 60,
+      "danceability": 0.7228333333333333,
+      "energy": 0.5236666666666666,
+      "valence": 0.6908333333333333,
+      "acousticness": 0.43083333333333335,
+      "speechiness": 0.15436666666666665,
+      "liveness": 0.23968333333333333
+    },
+    {
+      "playlist_genre": "world",
+      "popularity_bucket": 70,
+      "danceability": 0.73,
+      "energy": 0.48833333333333334,
+      "valence": 0.5493333333333333,
+      "acousticness": 0.4706666666666666,
+      "speechiness": 0.043133333333333336,
+      "liveness": 0.10196666666666666
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D3 Graph 1 – Audio Feature Radar</title>
+
+  <!-- d3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- shared stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="spotify-page">
+  <div class="container">
+
+    <!-- shared header/nav injected from index.html via header.js -->
+    <div id="header-placeholder"></div>
+    <script src="header.js"></script>
+
+    <main>
+      <!-- page intro -->
+      <section class="section">
+        <h2>Audio Feature Profiles by Popularity Bucket Using D3</h2>
+        <p>
+          This D3 radar chart shows how average audio features
+          (<strong>Danceability, Energy, Valence, Acousticness, Speechiness, Liveness</strong>)
+          change across popularity buckets for a selected playlist genre selected from the dropdown above the chart.
+          Each colored line represents one popularity range (10–19, 20–29, ...). The further out along an axis the line extends,
+          the higher the average value for that audio feature within that popularity range. Some genres do not have as many
+          popularity buckets represented if there were not enough tracks in those ranges provided in the dataset.
+        </p>
+      </section>
+
+      <!-- radar chart section -->
+      <section class="section viz-section">
+        <h2>Audio Feature Profiles by Popularity Bucket Radar Chart</h2>
+        <p>
+          Use the dropdown to switch between playlist genres.
+          The shape of each line shows how the typical audio feature profile shifts
+          as track popularity increases.
+        </p>
+
+        <!-- controls + chart -->
+        <div class="radar-controls" style="margin-bottom: 0.75rem;">
+          <label for="d3-genre-select">Select genre:</label>
+          <select id="d3-genre-select"></select>
+        </div>
+
+        <!-- radar chart !!!!! -->
+        <div class="viz-chart" id="d3-radar-chart">
+        </div>
+
+        <!-- text under the graph for analysis -->
+        <div class="viz-text" style="margin-top: 1.5rem;">
+          <h2>Key Takeaways</h2>
+          <p>
+            From this chart you can observe how different audio features trend with popularity
+            within a given genre. For example, if you look at the defaulted 'Electronic' genre,
+            you might notice that as popularity increases, the Acousticness tends to decrease which
+            makes sense since popular Electronic tracks are often more synthesized/techo and less acoustic. 
+            Similarly, features like Energy and Danceability often increase with popularity,
+            indicating that more energetic and danceable tracks tend to be favored in this genre. 
+            As the popularity increases, there seems to be almost an equilibrium forming among the features,
+            suggesting that popular tracks balance these characteristics to appeal to a wider audience.
+          </p>
+          <p>
+            In general, genres with more defined characteristis tend to show clearer trends in how audio features
+            change with popularity, while genres with a broader range of styles may show more variability. If you look at the
+            'Ambient' or 'Gaming' genres, the trends are less pronounced, indicating that popularity in these genres may be influenced by factors
+            beyond just audio features, such as mood or context of listening.
+          </p>
+
+          <h2>Interactivity</h2>
+          <p>
+            The genre dropdown allows you to explore how these trends differ across various musical styles, and
+            keeping the color scheme consistent for popularity buckets helps in comparing patterns across genres.
+            With this, users can gain insights into how audio features correlate with popularity in different musical contexts.
+          </p>
+
+          <!--- reference / inspiration section -->
+          <h2>References & Inspiration </h2>
+          <p>
+            This radar visualization was inspired by the tutorial
+            <a href="https://medium.com/create-code/build-a-radar-diagram-with-d3-js-9db6458a9248"
+               target="_blank">
+              “Build a Radar Diagram with D3.js”
+            </a>
+            by Danny Yang.
+          </p>
+          <p>
+            Our implementation modifies and extends the original example in several ways:
+          </p>
+          <ul class="summary-list">
+            <li>
+              <strong>Multiple popularity buckets:</strong>
+              the original tutorial shows a single polygon, while this version overlays multiple lines,
+              one for each popularity range (10–19, 20–29, ...), to compare trends within a genre.
+            </li>
+            <li>
+              <strong>Genre selection interaction:</strong>
+              a dropdown lets the user switch between playlist genres, automatically recomputing which
+              popularity buckets and feature profiles are displayed.
+            </li>
+            <li>
+              <strong>Legend layout and sizing:</strong>
+              the SVG is widened and the radar is centered on the left so the popularity legend can appear
+              in a dedicated panel on the right without overlapping the chart.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>D3 Graph 1 – Audio Feature Radar</span>
+    </footer>
+
+  </div>
+
+  <!-- D3 radar code -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      console.log("[d3_1] DOM loaded, loading radar_data.json...");
+
+    // load radar data
+    d3.json("radar_data.json").then(function (radarData) {
+
+        // unpack data
+        const rawFeatures = radarData.features;
+        const genres = radarData.genres;
+        const rows = radarData.data;
+
+        // helper to format axis labels with capitalization
+        function formatFeatureName(f) {
+          const mapping = {
+            danceability: "Danceability",
+            energy: "Energy",
+            valence: "Valence",
+            acousticness: "Acousticness",
+            speechiness: "Speechiness",
+            liveness: "Liveness"
+          };
+          return mapping[f] || (f.charAt(0).toUpperCase() + f.slice(1));
+        }
+
+        // unique popularity buckets across all genres
+        const allBuckets = Array.from(
+          new Set(rows.map(d => d.popularity_bucket))
+        ).sort((a, b) => a - b);
+
+        // consistent color palette for popularity buckets
+        const bucketColorScale = d3.scaleOrdinal()
+          .domain(allBuckets)
+          .range([
+            "#4f9dff",
+            "#36fba1",
+            "#ff6bd5",
+            "#ffb347",
+            "#b266ff",
+            "#ff4f81",
+            "#00d4ff",
+            "#7fff7f",
+            "#ffd54f",
+            "#ff9ff3"
+          ]);
+
+        // genre dropdown
+        const genreSelect = document.getElementById("d3-genre-select");
+        genres.forEach(g => {
+          const opt = document.createElement("option");
+          opt.value = g;
+          opt.textContent = g;
+          genreSelect.appendChild(opt);
+        });
+
+        // setup SVG with extra width for legend to not overlap chart
+        const containerEl = document.getElementById("d3-radar-chart");
+        const container = d3.select("#d3-radar-chart");
+
+        const containerWidth = containerEl.clientWidth || 800;
+
+        // responsive sizing
+        const chartSize = Math.min(containerWidth * 0.7, 550); // square area for radar
+        const legendWidth = 190;
+        const spacing = 40;
+        const margin = 50;
+
+        // total SVG size
+        const width = chartSize + legendWidth + spacing + margin * 2;
+        const height = chartSize + margin * 2;
+        const radius = chartSize / 2 - 10;
+
+        // clear previous SVG if any
+        const svg = container.append("svg")
+          .attr("width", width)
+          .attr("height", height);
+
+        // center radar circle on the left, leave space on the right for legend
+        const g = svg.append("g")
+          .attr("transform", "translate(" + (margin + chartSize / 2) + "," + (height / 2) + ")");
+
+        // angle for each axis
+        const numAxes = rawFeatures.length;
+        const angleSlice = (Math.PI * 2) / numAxes;
+
+        // radius scale (0 to 1 mapped to 0 to radius)
+        const rScale = d3.scaleLinear()
+          .domain([0, 1])
+          .range([0, radius]);
+
+        // background grid circles
+        const levels = 5;
+        for (let level = 1; level <= levels; level++) {
+          const r = radius * (level / levels);
+          g.append("circle")
+            .attr("r", r)
+            .attr("fill", "none")
+            .attr("stroke", "rgba(170,170,200,0.4)")
+            .attr("stroke-width", 0.8);
+        }
+
+        // radial value labels (0.2, 0.4, 0.6, 0.8, 1.0)
+        const tickValues = [0.2, 0.4, 0.6, 0.8, 1.0];
+        g.selectAll(".radial-label")
+          .data(tickValues)
+          .enter()
+          .append("text")
+          .attr("class", "radial-label")
+          .attr("x", 0)
+          .attr("y", d => -rScale(d))
+          .attr("dy", "-0.2em")
+          .style("font-size", "10px")
+          .style("fill", "rgba(200,210,240,0.9)")
+          .style("text-anchor", "middle")
+          .text(d => d.toFixed(1));
+
+        // axes and feature labels
+        const axis = g.selectAll(".axis")
+          .data(rawFeatures)
+          .enter()
+          .append("g")
+          .attr("class", "axis");
+
+        // draw axis lines and labels
+        axis.append("line")
+          .attr("x1", 0)
+          .attr("y1", 0)
+          // why cos? because 0 degrees is at 3 o'clock position
+          .attr("x2", (d, i) => rScale(1.05) * Math.cos(angleSlice * i - Math.PI / 2))
+          // why sin? because y increases downward in SVG coordinate system
+          .attr("y2", (d, i) => rScale(1.05) * Math.sin(angleSlice * i - Math.PI / 2))
+          .attr("stroke", "rgba(190,195,230,0.9)")
+          .attr("stroke-width", 1.0);
+
+        // feature labels
+        axis.append("text")
+          // why cos? because 0 degrees is at 3 o'clock position
+          .attr("x", (d, i) => rScale(1.2) * Math.cos(angleSlice * i - Math.PI / 2))
+          // why sin? because y increases downward in SVG coordinate system
+          .attr("y", (d, i) => rScale(1.2) * Math.sin(angleSlice * i - Math.PI / 2))
+          .attr("dy", "0.35em")
+          .style("font-size", "13px")
+          .style("fill", "rgba(230,235,255,0.95)")
+          .style("text-anchor", "middle")
+          .text(d => formatFeatureName(d));
+
+        // layer for radar lines
+        const bucketLayer = g.append("g").attr("class", "bucket-layer");
+
+        // helper: rows for a single genre
+        function getGenreRows(genre) {
+          const filtered = rows.filter(d => d.playlist_genre === genre);
+          filtered.sort((a, b) => a.popularity_bucket - b.popularity_bucket);
+          return filtered;
+        }
+
+        // draw legend in the right-hand area (no overlap)
+        function drawLegend(bucketsForGenre) {
+          svg.selectAll(".bucket-legend").remove();
+
+          // unique buckets for this genre
+          const uniqueBuckets = Array.from(new Set(bucketsForGenre)).sort((a, b) => a - b);
+
+          // draw legend box
+          const legend = svg.append("g")
+            .attr("class", "bucket-legend")
+            .attr("transform", "translate(" + (margin + chartSize + spacing) + "," + margin + ")");
+
+          const boxHeight = 24 + uniqueBuckets.length * 18;
+
+          // legend background
+          legend.append("rect")
+            .attr("width", legendWidth)
+            .attr("height", boxHeight)
+            .attr("rx", 10)
+            .attr("ry", 10)
+            .attr("fill", "rgba(5,8,22,0.9)")
+            .attr("stroke", "rgba(180,190,230,0.8)")
+            .attr("stroke-width", 1);
+
+            // legend title
+          legend.append("text")
+            .attr("x", 10)
+            .attr("y", 18)
+            .style("font-size", "11px")
+            .style("fill", "rgba(230,235,255,0.95)")
+            .text("Popularity range");
+
+            // legend items
+          const items = legend.selectAll(".bucket-item")
+            .data(uniqueBuckets)
+            .enter()
+            .append("g")
+            .attr("class", "bucket-item")
+            .attr("transform", (d, i) => "translate(10," + (28 + i * 18) + ")");
+
+            // line + label for each bucket
+          items.append("line")
+            .attr("x1", 0)
+            .attr("y1", 0)
+            .attr("x2", 26)
+            .attr("y2", 0)
+            .attr("stroke", d => bucketColorScale(d))
+            .attr("stroke-width", 2);
+
+            // text label
+          items.append("text")
+            .attr("x", 32)
+            .attr("y", 4)
+            .style("font-size", "10px")
+            .style("fill", "rgba(220,225,255,0.95)")
+            .text(d => d + "–" + (d + 9));
+        }
+
+        // draw radar lines for selected genre
+        function drawRadar(genre) {
+          bucketLayer.selectAll("*").remove();
+
+          // get rows for this genre
+          const genreRows = getGenreRows(genre);
+
+          // draw a line for each popularity bucket
+          genreRows.forEach(row => {
+            const bucket = row.popularity_bucket;
+
+            // compute points for this bucket's feature values
+            const points = rawFeatures.map((f, i) => {
+              const value = row[f] != null ? row[f] : 0;
+              const angle = angleSlice * i - Math.PI / 2;
+              const x = rScale(value) * Math.cos(angle);
+              const y = rScale(value) * Math.sin(angle);
+              return [x, y];
+            });
+
+            // close the shape!
+            points.push(points[0]);
+
+            // line generator
+            const lineGen = d3.line()
+              .x(d => d[0])
+              .y(d => d[1])
+              .curve(d3.curveLinearClosed);
+
+              // draw the line for this bucket
+            bucketLayer.append("path")
+              .datum(points)
+              .attr("d", lineGen)
+              .attr("fill", "none")
+              .attr("stroke", bucketColorScale(bucket))
+              .attr("stroke-width", 2)
+              .attr("opacity", 0.95)
+              .append("title")
+              .text("Popularity " + bucket + "–" + (bucket + 9));
+          });
+
+          // draw/update legend
+          drawLegend(genreRows.map(r => r.popularity_bucket));
+        }
+
+        // initial draw and interaction
+        const initialGenre = genres[0];
+        genreSelect.value = initialGenre;
+        drawRadar(initialGenre);
+
+        // redraw on genre change based on dropdown
+        genreSelect.addEventListener("change", function () {
+          drawRadar(this.value);
+        });
+      }).catch(function (err) {
+        console.error("error loading radar_data.json:", err);
+      });
+    });
+  </script>
+</body>
+</html>

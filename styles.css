@@ -1,0 +1,185 @@
+/* global layout + theme */
+
+body.spotify-page {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top,
+      #040416 0%,
+      #070b1e 40%,
+      #0d1024 100%);
+  color: #e6e9ff;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* header + nav */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 0;
+}
+
+.site-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: #ffffff;
+}
+
+nav a {
+  margin-left: 1.1rem;
+  text-decoration: none;
+  color: rgba(210, 220, 255, 0.8);
+  font-size: 0.95rem;
+  transition: 0.2s;
+}
+
+nav a:hover {
+  color: #7fb3ff;
+}
+
+nav a.active {
+  color: #9dc7ff;
+  font-weight: 600;
+}
+
+/* hero banner (index only) */
+
+.hero-banner {
+  margin-top: 0.5rem;
+  margin-bottom: 2.3rem;
+  border-radius: 22px;
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+
+  background-image: url("spotify-hero.png");
+  background-size: cover;
+  background-position: center 65%;
+  background-color: #060914;
+
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.65);
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.65)
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.6rem 2rem;
+}
+
+.hero-overlay h1 {
+  margin: 0;
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+}
+
+.hero-overlay p {
+  margin: 0.4rem 0 0;
+  font-size: 1.05rem;
+  color: rgba(235, 240, 255, 0.85);
+}
+
+
+/* sections */
+
+.section {
+  background: rgba(15, 20, 40, 0.42);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+  border: 1px solid rgba(120, 140, 210, 0.3);
+  backdrop-filter: blur(6px);
+}
+
+.section h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  color: #eaf1ff;
+}
+
+/* bullet styling */
+
+.data-list {
+  padding-left: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+.data-list li {
+  margin-bottom: 0.45rem;
+  line-height: 1.45;
+}
+
+/* code block formatting */
+
+.code-caption {
+  margin-top: 1.2rem;
+  margin-bottom: 0.35rem;
+  font-size: 0.92rem;
+  color: rgba(210, 220, 245, 0.95);
+}
+
+.code-block {
+  background: radial-gradient(circle at top left,
+      rgba(79, 157, 255, 0.18),
+      rgba(10, 12, 30, 0.95));
+  border-radius: 14px;
+  padding: 1rem 1.2rem;
+  border: 1px solid rgba(130, 150, 230, 0.45);
+  overflow-x: auto;
+  font-family: "JetBrains Mono", "Fira Code", Menlo, monospace;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #e8ecff;
+}
+
+/* references list */
+
+.summary-list {
+  padding-left: 1.2rem;
+}
+
+.summary-list li {
+  margin-bottom: 0.45rem;
+}
+
+.summary-list a {
+  color: #7fbaff;
+  text-decoration: none;
+}
+
+.summary-list a:hover {
+  text-decoration: underline;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0;
+  font-size: 0.85rem;
+  color: rgba(210, 220, 255, 0.7);
+}
