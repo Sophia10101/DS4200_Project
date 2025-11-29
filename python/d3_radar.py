@@ -1,11 +1,11 @@
-# this file prepares the data for the d3 radar chart
+# python/d3_radar.py creates a JSON file for d3 radar chart visualization
 
 import pandas as pd
 import json
 
 def main():
     # read the combined spotify dataset
-    df = pd.read_csv("combined_spotify_data.csv")
+    df = pd.read_csv("cleandata/combined_spotify_data.csv")
 
     # create popularity buckets (0-9, 10-19, ... 90-99)
     df["popularity_bucket"] = (df["track_popularity"] // 10 * 10).astype(int)
@@ -13,7 +13,7 @@ def main():
     # choose audio features to include on the radar chart
     features = ["danceability", "energy", "valence", "acousticness", "speechiness", "liveness"]
 
-    # select top genres by count (we can change to only select like top 5 if needed)
+    # select top genres by count (we can change to only select like top 10 if needed)
     top_genres = (
         df["playlist_genre"]
         .value_counts()
@@ -42,7 +42,7 @@ def main():
     }
 
     # write the data to json for d3 to load
-    with open("radar_data.json", "w", encoding="utf-8") as f:
+    with open("cleandata/radar_data.json", "w", encoding="utf-8") as f:
         json.dump(radar_data, f, indent=2)
 
 if __name__ == "__main__":

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D3 Graph 2 – Artist -> Genre -> Year Sankey</title>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="spotify-page">
+  <div class="container">
+
+    <!-- shared header -->
+    <div id="header-placeholder"></div>
+    <script src="js/header.js"></script>
+
+    <main>
+      <section class="section">
+        <h2>D3 Graph 2: Artist -> Genre -> Year Sankey Diagram</h2>
+        <p>
+          This Sankey diagram visualizes how songs flow from <strong>artists</strong>,
+          to <strong>playlist genres</strong>, and finally to <strong>release years</strong>.
+          Use the filters to explore how audio features affect these flows. For example,
+          you can see which artists dominate high-danceability, high-energy, and high-popularity tracks.
+        </p>
+      </section>
+
+      <section class="section viz-section">
+
+        <div class="filter-panel">
+            <div class="filter-group">
+                <label>Minimum Danceability: <span id="dance-val">0.50</span></label>
+                <input id="dance-slider" type="range" min="0" max="1" step="0.05" value="0.50">
+            </div>
+
+            <div class="filter-group">
+                <label>Minimum Energy: <span id="energy-val">0.30</span></label>
+                <input id="energy-slider" type="range" min="0" max="1" step="0.05" value="0.30">
+            </div>
+
+            <div class="filter-group">
+                <label>Minimum Popularity: <span id="pop-val">90</span></label>
+                <input id="pop-slider" type="range" min="0" max="100" step="5" value="90">
+            </div>
+        </div>
+
+
+        <div class="viz-chart" id="sankey-chart"></div>
+
+        <div class="viz-text">
+          <h2>Key Takeaways</h2>
+          <p>The default Sankey view highlights how strongly today’s most popular, energetic, and danceable 
+            tracks funnel into the pop genre. With the filters set to show songs with high danceability, energy, and popularity,
+            nearly every artist in the left column (including Gracie Abrams, ROSE, Sabrina Carpenter, Billie Eilish, Chappell Roan, 
+            and The Weeknd) flows directly into the large pop and 2024 blocks, indicating that mainstream pop overwhelmingly satisfies
+            these thresholds. Only a small number of artists branch into genres like gaming, hip-hop, or latin, and even those 
+            genres receive only a fraction of the overall flow compared to pop. From there, most of the filtered tracks converge 
+            into the 2024 release year, showing that highly popular and high-energy music meeting these criteria is predominantly 
+            very recent. Overall, the diagram suggests that modern popular music—especially pop—is characterized by strong 
+            danceability and energy, and that the tracks meeting these criteria tend to come from the most current releases.
+          </p>
+          <p>
+            Part of me wants to believe that the subset of data on Kaggle we used for this project is skewed toward popular, energetic,
+            and danceable tracks, which is why pop dominates so heavily in the default view. It would be intersting to see how this
+            analysis would change with a more balanced dataset that includes a wider variety of tracks across different popularity 
+            and audio feature levels. If Spotify would revive their API access for academic research, that would be a great way to 
+            get a more representative sample and have better confidence in these insights.
+          </p>
+          <h2>Interactivity</h2>
+          <p>The interactive sliders allow users to refine the Sankey diagram by adjusting minimum thresholds for danceability, 
+            energy, and popularity. Because the full dataset contains many artists, genres, and release years, viewing the Sankey 
+            without any filters can become extremely cluttered and visually overwhelming. By increasing these thresholds, users 
+            can progressively narrow the diagram to highlight clearer patterns—such as which artists consistently produce 
+            high-energy or highly danceable music, or which genres dominate within specific popularity ranges.
+          </p>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>D3 Graph 2 – Sankey Diagram</span>
+    </footer>
+  </div>
+
+  <!-- load sankey logic -->
+  <script src="js/d3_sankey.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>D3 Graph 1 – Audio Feature Radar</title>
+
+  <!-- d3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- shared stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="spotify-page">
+  <div class="container">
+
+    <!-- shared header/nav injected from index.html via header.js -->
+    <div id="header-placeholder"></div>
+    <script src="js/header.js"></script>
+
+    <main>
+      <!-- page intro -->
+      <section class="section">
+        <h2>Audio Feature Profiles by Popularity Bucket Using D3</h2>
+        <p>
+          This D3 radar chart shows how average audio features
+          (<strong>Danceability, Energy, Valence, Acousticness, Speechiness, Liveness</strong>)
+          change across popularity buckets for a selected playlist genre selected from the dropdown above the chart.
+          Each colored line represents one popularity range (10–19, 20–29, ...). The further out along an axis the line extends,
+          the higher the average value for that audio feature within that popularity range. Some genres do not have as many
+          popularity buckets represented if there were not enough tracks in those ranges provided in the dataset.
+        </p>
+      </section>
+
+      <!-- radar chart section -->
+      <section class="section viz-section">
+        <h2>Audio Feature Profiles by Popularity Bucket Radar Chart</h2>
+        <p>
+          Use the dropdown to switch between playlist genres.
+          The shape of each line shows how the typical audio feature profile shifts
+          as track popularity increases.
+        </p>
+
+        <!-- controls + chart -->
+        <div class="radar-controls" style="margin-bottom: 0.75rem;">
+          <label for="genre-select">Select genre:</label>
+          <select id="genre-select"></select>
+        </div>
+
+        <!-- radar chart !!!!! -->
+        <div class="viz-chart" id="radar-chart">
+        </div>
+
+        <!-- text under the graph for analysis -->
+        <div class="viz-text" style="margin-top: 1.5rem;">
+          <h2>Key Takeaways</h2>
+          <p>
+            From this chart you can observe how different audio features trend with popularity
+            within a given genre. For example, if you look at the defaulted 'Electronic' genre,
+            you might notice that as popularity increases, the Acousticness tends to decrease which
+            makes sense since popular Electronic tracks are often more synthesized/techo and less acoustic. 
+            Similarly, features like Energy and Danceability often increase with popularity,
+            indicating that more energetic and danceable tracks tend to be favored in this genre. 
+            As the popularity increases, there seems to be almost an equilibrium forming among the features,
+            suggesting that popular tracks balance these characteristics to appeal to a wider audience.
+          </p>
+          <p>
+            In general, genres with more defined characteristis tend to show clearer trends in how audio features
+            change with popularity, while genres with a broader range of styles may show more variability. If you look at the
+            'Ambient' or 'Gaming' genres, the trends are less pronounced, indicating that popularity in these genres may be influenced by factors
+            beyond just audio features, such as mood or context of listening.
+          </p>
+
+          <h2>Interactivity</h2>
+          <p>
+            The genre dropdown allows you to explore how these trends differ across various musical styles, and
+            keeping the color scheme consistent for popularity buckets helps in comparing patterns across genres.
+            With this, users can gain insights into how audio features correlate with popularity in different musical contexts.
+          </p>
+
+          <!--- reference / inspiration section -->
+          <h2>References & Inspiration </h2>
+          <p>
+            This radar visualization was inspired by the tutorial
+            <a href="https://medium.com/create-code/build-a-radar-diagram-with-d3-js-9db6458a9248"
+               target="_blank">
+              “Build a Radar Diagram with D3.js”
+            </a>
+            by Danny Yang.
+          </p>
+          <p>
+            Our implementation modifies and extends the original example in several ways:
+          </p>
+          <ul class="summary-list">
+            <li>
+              <strong>Multiple popularity buckets:</strong>
+              the original tutorial shows a single polygon, while this version overlays multiple lines,
+              one for each popularity range (10–19, 20–29, ...), to compare trends within a genre.
+            </li>
+            <li>
+              <strong>Genre selection interaction:</strong>
+              a dropdown lets the user switch between playlist genres, automatically recomputing which
+              popularity buckets and feature profiles are displayed.
+            </li>
+            <li>
+              <strong>Legend layout and sizing:</strong>
+              the SVG is widened and the radar is centered on the left so the popularity legend can appear
+              in a dedicated panel on the right without overlapping the chart.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>D3 Graph 1 – Audio Feature Radar</span>
+    </footer>
+
+  </div>
+
+  <!-- external D3 radar logic -->
+  <script src="js/d3_radar.js"></script>
+</body>
+</html>

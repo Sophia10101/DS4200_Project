@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
       // inject header markup
       placeholder.innerHTML = sharedHeader.innerHTML;
 
-      // get filename of current page (e.g., d3_1.html)
+      // get filename of current page
       const currentPage = window.location.pathname.split("/").pop();
 
       // find all nav links in the injected header
