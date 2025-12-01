@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tableau Visualization – Release Month vs Features Analysis</title>
+
+  <!-- shared stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="spotify-page">
+  <div class="container">
+
+    <!-- shared header/nav injected from index.html via header.js -->
+    <div id="header-placeholder"></div>
+    <script src="js/header.js"></script>
+
+    <main>
+
+      <!-- Intro section -->
+      <section class="section">
+        <h2>Interactive Tableau Dashboard – Release Month vs. Features Analysis</h2>
+        <p>
+          This page embeds an interactive Tableau visualization that explores 
+          trends across musical features and playlist characteristics. 
+          The visualization allows users to explore the data directly and
+          switch between insights using Tableau’s interactive filters.
+        </p>
+      </section>
+
+      <!-- Visualization section -->
+      <section class="section viz-section">
+        <h2>Interactive Dashboard Overview</h2>
+        <p>
+          The visualization below is embedded from Tableau Public. 
+          Use its built-in filters, legends, highlights, and tooltips 
+          to explore how features vary across genres, playlists, and 
+          popularity ranges.
+        </p>
+
+        <!-- Tableau Embed -->
+        <div class='tableauPlaceholder' id='viz1764567779486' style='position: relative'>
+          <noscript>
+            <a href='#'>
+              <img alt='Dashboard 1 ' src='https://public.tableau.com/static/images/DS/DS4200FinalProject/Dashboard1/1_rss.png' style='border: none' />
+            </a>
+          </noscript>
+          <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value=''/>
+            <param name='name' value='DS4200FinalProject/Dashboard1'/>
+            <param name='tabs' value='no'/>
+            <param name='toolbar' value='yes'/>
+            <param name='static_image' value='https://public.tableau.com/static/images/DS/DS4200FinalProject/Dashboard1/1.png'/>
+            <param name='animate_transition' value='yes'/>
+            <param name='display_static_image' value='yes'/>
+            <param name='display_spinner' value='yes'/>
+            <param name='display_overlay' value='yes'/>
+            <param name='display_count' value='yes'/>
+            <param name='language' value='en-US'/>
+          </object>
+        </div>
+
+        <script type='text/javascript'>
+          var divElement = document.getElementById('viz1764567779486');
+          var vizElement = divElement.getElementsByTagName('object')[0];
+
+          if ( divElement.offsetWidth > 800 ) {
+              vizElement.style.minWidth='420px';
+              vizElement.style.maxWidth='650px';
+              vizElement.style.width='100%';
+              vizElement.style.minHeight='587px';
+              vizElement.style.maxHeight='887px';
+              vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+          } else if ( divElement.offsetWidth > 500 ) {
+              vizElement.style.minWidth='420px';
+              vizElement.style.maxWidth='650px';
+              vizElement.style.width='100%';
+              vizElement.style.minHeight='587px';
+              vizElement.style.maxHeight='887px';
+              vizElement.style.height=(divElement.offsetWidth*0.75)+'px';
+          } else {
+              vizElement.style.width='100%';
+              vizElement.style.height='727px';
+          }
+
+          var scriptElement = document.createElement('script');
+          scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+          vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+
+        <!-- analysis text -->
+        <div class="viz-text" style="margin-top: 1.5rem;">
+          <h2>Key Takeaways</h2>
+          <p>
+            This dashboard reveals patterns across playlists and genres,
+            allowing you to understand how audio features shift with 
+            popularity, context, or playlist type. Hover interactions 
+            reveal detailed numeric values and highlight relationships
+            in the dataset.
+          </p>
+
+          <p>
+            Use the filters built into Tableau to explore different genres 
+            or feature combinations. The dashboard dynamically updates the 
+            charts to show how trends differ across categories.
+          </p>
+
+          <h2>Interactivity</h2>
+          <p>
+            Tableau provides powerful built-in interactions including 
+            highlighting, filtering, zooming, and tooltips. 
+            Unlike the D3 visualization, the logic is controlled by Tableau 
+            Public and requires no extra JavaScript.
+          </p>
+
+          <h2>References & Inspiration</h2>
+          <p>
+            This embedded dashboard was created using
+            <a href="https://public.tableau.com/" target="_blank">Tableau Public</a>.  
+            It serves as part of a broader analysis project connecting 
+            musical characteristics to playlist popularity and listener trends.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>Tableau Dashboard Embed</span>
+    </footer>
+
+  </div>
+</body>
+</html>
