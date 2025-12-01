@@ -17,12 +17,12 @@
         <!-- all of our tabs for each chart visualiztion -->
         <nav>
           <a class="active" href="index.html">Home</a>
-          <a href="d3_radar.html">Radar Chart</a>
-          <a href="d3_sankey.html">Sankey Diagram</a>
-          <a href="altair_1.html">Altair Graph 1</a>
-          <a href="altair_2.html">Altair Graph 2</a>
-          <a href="tableau_1.html">Tableau Graph 1</a>
-          <a href="tableau_2.html">Tableau Graph 2</a>
+          <a href="d3_1.html">Radar Chart</a>
+          <a href="d3_2.html">Sankey Diagram</a>
+          <a href="altair_1.html">Density Graph</a>
+          <a href="altair_2.html">Ridgeline Plot</a>
+          <a href="tableau_1.html">Line Chart</a>
+          <a href="tableau_2.html">Scatterplot</a>
         </nav>
       </header>
     </div>
@@ -131,6 +131,22 @@ combined_df.to_csv("combined_spotify_data.csv", index=False)</code></pre>
         </p>
       </section>
 
+      <!-- FUTURE WORK SECTION -->
+      <section id="future" class="section future-section">
+        <h2>Summary of Findings</h2>
+        <p>
+          Throughout this prohect, we learned that there really is not one singular way to define what makes a song popular.
+          Different genres have different trends when it comes to audio features and popularity.
+        </p>
+        <p>
+          For future work, it would be interesting to expand the dataset to include more mid-level popularity tracks
+          to see if there are more gradual trends that emerge. Additionally, incorporating user listening data
+          and demographic information could provide deeper insights into how different audiences engage with music.
+          Finally, applying machine learning techniques to predict track popularity based on audio features
+          could be a valuable extension of this analysis similar to the one reference article we found in our proposal. 
+        </p>
+      </section>
+
       <!-- REFERENCES SECTION -->
       <section id="references" class="section references-section">
         <h2>References & Resources</h2>
@@ -154,6 +170,17 @@ combined_df.to_csv("combined_spotify_data.csv", index=False)</code></pre>
                target="_blank">
               “Ridgeline Plot" - Vega Altair Developers</a>
           </li>
+          <li>
+            <a href="https://www.researchgate.net/publication/392513626_Analyzing_Audio_Features_Across_Genres_to_Understand_Song_Popularity_A_Data-Driven_Approach_Using_Spotify_API"
+               target="_blank">
+              “Interpreting Music Popularity Using Audio Features from Spotify " - Schedl, M. (2020)</a>
+          </li>
+          <li>
+            <a href="https://www.researchgate.net/publication/383709855_Predicting_Song_Popularity_Using_Data_Analysis "
+               target="_blank">
+              "Predicting Song Popularity Using Machine Learning and Spotify Data" -  Herremans, D. & Chuan, C. (2019)</a>
+          </li>
+
         </ul>
       </section>
 
