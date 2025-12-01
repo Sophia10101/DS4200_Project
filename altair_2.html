@@ -29,9 +29,11 @@
 
     <main>
       <section class="section">
-        <h2>Title</h2>
+        <h2>Distribution of Danceability Scores with Altair</h2>
         <p class="description">
-          This chart shows ...
+          This ridgeline plot shows the distribution of danceability scores for the top 10 Spotify playlist genres. 
+          Each colored layer represents one genre, allowing viewers to compare how danceable the tracks are within each one. 
+          The curves highlight where most songs fall along the danceability scale. 
         </p>
       </section>
 
@@ -40,20 +42,38 @@
         <div id="vis"></div>
         <div class="viz-text" style="margin-top: 1.5rem;">
           <h2>Key Takeaways</h2>
-          <p>
-            TO DO
-          </p>
-          <p>
-            TO DO
-          </p>
+          <ul>
+            <li>Pop, Rock, and Hip-Hop have the widest and most pronounced distributions,
+             showing a large number of mid-to-high danceability tracks.
+            </li>
+            <li>
+              Hip-Hop shows strong peaks at high danceability scores indicating that this genre consistently features
+              more rhythmic and danceable music. 
+            <li>
+              Several genres display flatter and lower peaks overall, which suggests a more even spread of 
+              danceability values rather than strong concentrations at any one level.
+            </li>
+            <li>
+              Hip-hop looks like the most danceable genre overall, with a high peak toward the upper end of the danceability scale. Metal shows the lowest danceability levels, 
+              with a flatter curve and very few tracks reaching the high-danceability range.
+            </li>
+            <li>
+              The gaming genre shows no strong peaks but spans the widest range of danceability values, 
+              indicating it features a diverse mix of tracks.
+            </li>
+          
+          </ul>
+          
 
           <!--- reference / inspiration section -->
           <h2>References & Inspiration </h2>
           <p>
-            link : https://altair-viz.github.io/gallery/ridgeline_plot.html
-          </p>
-          <p>
-            TO DO
+            <strong>Altair Ridgeline Plot Example</strong>
+            <a href="linkhttps://altair-viz.github.io/gallery/ridgeline_plot.html"
+               target="_blank">
+              “Ridgeline Plot”</a> <br>
+           The design of this visualization was adapted from the above altair ridgeline plot example and
+           modified to compare danceability across Spotify playlist genres using a csv of spotify data.
           </p>
         </div>
       </section>
