@@ -22,8 +22,9 @@
       <section class="section">
         <h2>Interactive Tableau Dashboard – Duration vs. Track Popularity by Genre</h2>
         <p>
-          Below is an embedded Tableau dashboard exploring the dataset with interactive controls.  
-          Use the filters and interactions built into Tableau to explore relationships among playlist metrics, genres, and audio features.
+          Below is an embedded Tableau dashboard exploring how track duration relates to popularity,
+          and how this relationship differs across genres. Use Tableau’s interactive filters to compare
+          genres, highlight clusters, and examine outliers in the dataset.
         </p>
       </section>
 
@@ -31,7 +32,9 @@
       <section class="section viz-section">
         <h2>Dashboard: Full Data Overview</h2>
         <p>
-          The embedded dashboard shows a comprehensive view of the data — you can adjust filters to view different segments, timelines, or feature distributions.
+          The scatterplot visualizes each track’s duration (in milliseconds) against its popularity score.
+          By color-coding points by genre, the dashboard makes it easy to examine genre-specific patterns
+          and determine whether certain genres favor longer or shorter track lengths.
         </p>
 
         <!-- Tableau Embed -->
@@ -90,25 +93,45 @@
         <div class="viz-text" style="margin-top: 1.5rem;">
           <h2>Key Insights</h2>
           <p>
-            This dashboard provides a broad overview of your dataset — from distribution of audio features to playlist/genre comparisons.  
-            You can use built-in filters to drill down on specific genres, popularity ranges, or feature combinations.
+            The scatterplot reveals that <strong>the vast majority of tracks fall within a relatively narrow
+            duration range</strong>—roughly 150,000 to 300,000 milliseconds (2.5 to 5 minutes). Within this range,
+            popularity varies widely, indicating that track length alone is not a strong predictor of popularity.
           </p>
 
           <p>
-            Hovering over chart elements reveals detailed values; using filters lets you compare across segments.  
-            This interactive setup makes it easier to spot patterns or outliers in your data quickly.
+            Genres cluster heavily in this core duration range as well. Pop, hip-hop, indie, and R&B tracks
+            especially overlap, reflecting mainstream conventions around track length. While these genres
+            show similar duration patterns, they display diverse popularity scores, suggesting that other
+            audio features (energy, danceability, loudness, etc.) may play a larger role in determining
+            how well a track performs.
+          </p>
+
+          <p>
+            <strong>Classical music displays a unique pattern:</strong> several classical tracks extend far beyond
+            400,000 ms (over 6 minutes), reaching durations of 800,000–1,100,000 ms. These long-duration pieces
+            tend to cluster at mid-range popularity levels, suggesting niche but consistent listener engagement.
+            A few rock and funk tracks also appear as high-duration outliers, though they are far less common.
+          </p>
+
+          <p>
+            Across all genres, <strong>no strong linear relationship emerges between duration and popularity.</strong>
+            Popular tracks can be both short and long, and lower-popularity tracks are equally scattered.
+            The visualization suggests that popularity is far more influenced by musical style, production,
+            or audience expectations than by duration alone.
           </p>
 
           <h2>Interactivity</h2>
           <p>
-            The embedded visualization leverages Tableau’s interactivity: filtering, highlighting, dynamic tooltips, and chart switching — all without extra custom code.  
-            This makes it user-friendly and intuitive for exploring complex data relationships.
+            Tableau’s interactive filtering and highlighting allow you to isolate individual genres and examine
+            their distributions more closely. Hovering over points reveals track-specific details, helping you
+            spot genre patterns, popularity concentrations, or duration-based outliers with greater precision.
           </p>
 
           <h2>References & Notes</h2>
           <p>
-            Powered by <a href="https://public.tableau.com/" target="_blank">Tableau Public</a>, this dashboard is part of a larger project to analyze how musical features and playlist characteristics correlate across genres and popularity levels.  
-            You can embed it in any webpage using this template and customize appearance via CSS and layout as needed.
+            Built with <a href="https://public.tableau.com/" target="_blank">Tableau Public</a>, this visualization
+            is part of a larger analysis exploring how musical attributes—such as duration, energy, loudness,
+            and playlist categorization—relate to streaming popularity across genres.
           </p>
         </div>
       </section>
@@ -116,3 +139,8 @@
 
     <footer class="footer">
       <span>Tableau Dashboard Embed – Full Overview</span>
+    </footer>
+
+  </div>
+</body>
+</html>

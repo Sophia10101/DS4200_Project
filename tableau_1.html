@@ -23,9 +23,9 @@
         <h2>Interactive Tableau Dashboard – Release Month vs. Features Analysis</h2>
         <p>
           This page embeds an interactive Tableau visualization that explores 
-          trends across musical features and playlist characteristics. 
-          The visualization allows users to explore the data directly and
-          switch between insights using Tableau’s interactive filters.
+          how audio features vary across the calendar year and how these shifts
+          relate to track popularity. Users can explore seasonal patterns and
+          feature-level changes using Tableau’s built-in interactive tools.
         </p>
       </section>
 
@@ -35,8 +35,8 @@
         <p>
           The visualization below is embedded from Tableau Public. 
           Use its built-in filters, legends, highlights, and tooltips 
-          to explore how features vary across genres, playlists, and 
-          popularity ranges.
+          to examine how features such as acousticness, energy, danceability,
+          and loudness trend throughout the year.
         </p>
 
         <!-- Tableau Embed -->
@@ -95,33 +95,42 @@
         <div class="viz-text" style="margin-top: 1.5rem;">
           <h2>Key Takeaways</h2>
           <p>
-            This dashboard reveals patterns across playlists and genres,
-            allowing you to understand how audio features shift with 
-            popularity, context, or playlist type. Hover interactions 
-            reveal detailed numeric values and highlight relationships
-            in the dataset.
+            This dashboard highlights clear seasonal patterns in audio features when tracks are grouped
+            by their album release month. Acousticness peaks in January, dips through the summer months,
+            and rises again in the fall, suggesting that early-year and late-year releases tend to be more
+            acoustic or mellow. In contrast, loudness and energy rise steadily into late summer and early fall,
+            showing that more intense and high-energy songs dominate those months—particularly among the most popular tracks.
           </p>
 
           <p>
-            Use the filters built into Tableau to explore different genres 
-            or feature combinations. The dashboard dynamically updates the 
-            charts to show how trends differ across categories.
+            Danceability increases as the year progresses, with the highest levels appearing in September and October.
+            These months also show some of the highest popularity values, indicating that upbeat, dance-friendly songs
+            released in early fall tend to perform particularly well. Liveness remains relatively consistent across the year
+            but spikes noticeably in October, suggesting a seasonal increase in live-sounding recordings or performance-heavy tracks.
+            Speechiness also rises toward the end of the year, peaking in October, which may align with increased releases of
+            spoken-word or rap influences as the year closes.
+          </p>
+
+          <p>
+            Overall, the dashboard shows that <strong>popular tracks follow a distinct seasonal rhythm</strong>:
+            early-year releases skew softer and more acoustic, while late-year releases are typically louder, more energetic,
+            more danceable, and feature more spoken or rhythmic vocal styles. These patterns may reflect industry release cycles,
+            streaming trends, or seasonal listener preferences.
           </p>
 
           <h2>Interactivity</h2>
           <p>
-            Tableau provides powerful built-in interactions including 
-            highlighting, filtering, zooming, and tooltips. 
-            Unlike the D3 visualization, the logic is controlled by Tableau 
-            Public and requires no extra JavaScript.
+            Tableau’s built-in interactions—including tooltips, highlighting, and dynamic filtering—allow for deeper exploration
+            of each feature. Hovering over a data point reveals exact monthly values and popularity scores, making it easy to trace
+            how features shift throughout the year and to compare them month to month.
           </p>
 
           <h2>References & Inspiration</h2>
           <p>
-            This embedded dashboard was created using
-            <a href="https://public.tableau.com/" target="_blank">Tableau Public</a>.  
-            It serves as part of a broader analysis project connecting 
-            musical characteristics to playlist popularity and listener trends.
+            This embedded dashboard was created using 
+            <a href="https://public.tableau.com/" target="_blank">Tableau Public</a>.
+            It is part of a broader analysis exploring how musical characteristics evolve throughout the year
+            and how those traits relate to track popularity patterns.
           </p>
         </div>
       </section>
