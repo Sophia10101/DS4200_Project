@@ -29,10 +29,13 @@
 
     <main>
       <section class="section">
-        <h2>Title</h2>
+        <h2>Distribution Of Track Popularity with Altair</h2>
         <p class="description">
           This chart shows the distribution of track popularity across the top 10 Spotify genres.
-          Use the slider to filter by maximum popularity and click a genre line to highlight it.
+          Use the slider to filter by maximum popularity and click a genre line to highlight it. Each curve 
+          represents the density of popularity scores for a specific genre to compare how popularity is spread across
+          the most popular genres on spotify. 
+
         </p>
       </section>
 
@@ -41,26 +44,28 @@
         <div id="vis"></div>
         <div class="viz-text" style="margin-top: 1.5rem;">
           <h2>Key Takeaways</h2>
-          <p>
-            TO DO
-          </p>
-          <p>
-            TO DO
-          </p>
-
+            <ul>
+              <li>Genres vary in how tightly their popularity scores cluster, with some showing sharper peaks than others.</li>
+              <li>R&B (purple) has the highest and most pronounced peak, centered around the 75–77 popularity range. This means R&B tracks tend to concentrate at higher popularity scores</li>
+              <li>Korean, Gaming, and Metal also show strong peaks but more spread out than R&B, while genres like pop and k-pop have flatter, more variable distributions.</li>
+              <li>Lowering the popularity filter shows how some genres drop off quickly, revealing which ones rely more on their most popular tracks.</li>
+            <ul>
+      </section>
+      <section class="section">
           <h2>Interactivity</h2>
-          <p>
-            TO DO
-          </p>
-
-          <!--- reference / inspiration section -->
-          <h2>References & Inspiration </h2>
-          <p>
-            TO DO
-          </p>
-          <p>
-            TO DO
-          </p>
+            <ul>
+              <li>
+                <strong>Slider (Max Popularity):</strong> The slider allows viewers to filter the chart by setting a maximum popularity value (default 100). 
+                As you lower the slider, only tracks at or below that popularity level remain in the visualization. 
+                This reveals how each genre behaves when focusing on less-popular tracks and shows which genres still 
+                maintain peaks versus which ones flatten out.
+              </li>
+              <li>
+                <strong>Click to Highlight Curve</strong>
+                Clicking on a genre curve highlights that genre while fading the others to grey. This makes it easier to focus on one distribution 
+                and clearly see its shape, peak, and spread without visual distractions. 
+              </li>
+            <ul>
         </div>
       </section>
     </main>
