@@ -38,16 +38,16 @@ document.addEventListener("DOMContentLoaded", function () {
     const bucketColorScale = d3.scaleOrdinal()
       .domain(allBuckets)
       .range([
-        "#4f9dff",
-        "#36fba1",
-        "#ff6bd5",
-        "#ffb347",
-        "#b266ff",
-        "#ff4f81",
-        "#00d4ff",
-        "#7fff7f",
-        "#ffd54f",
-        "#ff9ff3"
+        "#ff6bd5", // pink
+        "#ff9ff3", // light pink
+        "#ff4f81", // hot pink
+        "#ffb347", // orange
+        "#ffd54f", // yellow
+        "#36fba1", // green
+        "#7fff7f", // light green
+        "#00d4ff", // cyan
+        "#4f9dff", // blue
+        "#b266ff"  // purple
       ]);
 
     // ----- DOM elements -----
