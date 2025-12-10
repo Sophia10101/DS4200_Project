@@ -1,1 +1,1 @@
-Run these files when you need to preprocess the data into JSON files for the D3 diagrams.
+Run these files when you need to preprocess the data into JSON files for the D3 and Altair diagrams.
