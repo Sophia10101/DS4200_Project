@@ -1,0 +1,32 @@
+﻿Jessica Baumann, Mary Katherine Hillmer, Sophia Shull
+DS4200: Information Presentation and Data Visualization
+Dr. Xiaoyi Yang
+10 December 2025
+
+
+Spotify Audio Features & Popularity
+https://sophia10101.github.io/DS4200_Project/index.html        
+
+
+D3 Radar Chart Design Choice:
+The radar chart was used for this data visualization because it very clearly shows how multiple audio features move together as popularity changes within a single genre. I felt as though this was a super unique chart as well, and would be a memorable way to look at this data that, in other formats, may be too cluttered. Each axis represents one feature (such as danceability, energy, valence, and acousticness), and the lines for the popularity buckets trace distinct shapes across those axes. We can easily see how higher popularity tracks cluster towards higher danceability/energy for some genres, or how acousticness tends to fall off. The genre dropdown keeps the view focused by only showing one genre at a time with a consistent color gradient palette to help users track popularity ranges across genres without feeling cluttered. Because the entire profile of the song is shown in one compact hexagon, viewers can quickly compare how the vibe of tracks shifts from low to high popularity, making the radar chart a natural choice for summarizing these features in an intuitive view.
+
+
+D3 Sankey Diagram Design Choice:
+A Sankey diagram was chosen because it clearly illustrates the relationship between artist, genre, and release year. I had just learned about Sankey diagrams this year in DS3500 and felt like it was a perfect visualization to use. The width of each link relates to volume, making it easy to see which artists and genres dominate when stricter filters are applied. This allows us to tell storytelling across this data, where users can trace how well-known artists concentrate within certain genres and how those genres align with specific years. The interactive sliders reduce clutter because the dataset is so large, but also allow for users to only focus on tracks with specific thresholds by making the graph much more explanatory.  The defaults chosen allow for a graph that does not have much clutter and serves as a good baseline for analysis. By emphasizing connections rather than isolated values in some of the other charts, the Sankey helps the users to see structural relationships with the data.
+
+
+Altair Density Plot Design Choice:
+A density plot was chosen for this visualization because it provides a clear and continuous view of how track popularity is distributed within each genre, making it easy to compare overall patterns without the distraction of individual points. The use of distinct colors for each genre allows viewers to differentiate the curves while still seeing them layered together for comparison. Interactivity enables users to reduce visual overload in this plot. The slider lets users filter by maximum popularity to explore how distributions change at different thresholds, and the click-to-highlight feature isolates a single genre by fading out the others. These design choices work together to create a visualization that is intuitive and meaningful, allowing users to understand both trends and genre-specific behaviors. 
+
+
+Altair Ridgeline Plot Design Choice:
+A ridgeline plot was used because it allows each genre to have its own row, making the danceability patterns easy to compare without confusion about which curve belongs to which genre. The light colors help separate the genres while keeping the chart clean and visually appealing. This design makes it simple to see which genres are more danceable overall, which have more variation, and how the distributions differ across all ten genres.
+
+
+Tableau Line Chart Design Choice:
+A series of small-multiple line charts was used here to clearly separate each audio feature while preserving a consistent monthly timeline, making it easy to compare how different characteristics fluctuate across the year. Plotting each feature in its own panel reduces visual clutter and prevents overlapping trends from becoming confusing. A shared color gradient tied to popularity provides an additional layer of meaning without introducing extra mark: darker lines immediately signal months associated with higher-popularity releases. Using month names along the x-axis keeps the temporal progression intuitive, and the uniform layout helps viewers scan vertically to observe seasonal patterns across features. Together, these choices create a clean, structured visualization that highlights both individual feature behavior and broader popularity-related trends.
+
+
+Tableau Scatterplot Design Choice: 
+A scatter plot was chosen for this visualization because it provides a direct and intuitive way to examine the relationship between track duration and popularity at the level of individual songs. Each point represents a single track, allowing viewers to see the full spread of the data rather than an aggregated summary. Color-coding by genre introduces an additional dimension without overcrowding the chart, making it easy to spot genre-specific clusters or outliers. Interactivity enhances this further—the hover feature reveals exact track details on demand, and the ability to filter or select by genre helps reduce visual noise and focus on specific musical categories. The wide horizontal scale highlights how uncommon extremely long tracks are, while the vertical axis helps reveal where most popularity scores tend to fall. By layering all genres and maintaining clear color distinctions, the chart supports both overall pattern recognition and genre-level comparisons, resulting in a visualization that is informative, balanced, and easy to interpret.
